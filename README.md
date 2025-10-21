@@ -1,6 +1,6 @@
 # DITA Topic Model - Howrse Web Browser Game Documentation
 
-This repo contains a DITA topic model (TM) related to reserving and applying an affix, covering a mare with a public covering, and maximizing a horse's BLUP in the online web browser game Howrse. 
+This repo contains a DITA topic model (TM) ...
 
 ## Authors
 
