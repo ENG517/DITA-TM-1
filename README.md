@@ -1,4 +1,4 @@
-# DITA Topic Model - Howrse Web Browser Game Documentation
+# DITA Topic Model - Enter Title Here
 
 This repo contains a DITA topic model (TM) ...
 
