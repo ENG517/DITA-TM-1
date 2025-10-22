@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enter_unique_id_here">
+  <title>Install the Circuit</title>
+  <shortdesc> If everything checks out with the circuit test, you can go ahead and install the parts
+    into the body of the guitar. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Disconnect necessary components.</cmd>
+        <substeps>
+          <substep>
+            <cmd>De-solder the humbucker entirely.</cmd>
+          </substep>
+          <substep>
+            <cmd>De-solder the output jack entirely. Disconnect the wires from the output jack
+              itself rather than the volume pot.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Place the components into the body</cmd>
+        <substeps>
+          <substep>
+            <cmd>Screw the humbucker into its slot in the body and run the wires into the
+              electronics cavity.</cmd>
+          </substep>
+          <substep>
+            <cmd>With the rest of the circuit stil intact, fasten the pots into their slots in the
+              electronics cavity.</cmd>
+          </substep>
+          <substep>
+            <cmd>Slide the knob caps onto the pot knobs.</cmd>
+          </substep>
+          <substep>
+            <cmd>Run the wires that were connected to the output jack through to the output jack
+              slot in the body.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Reconnect the disconnected components</cmd>
+        <substeps>
+          <substep>
+            <cmd>Re-solder the humbucker wires to the volume pot.</cmd>
+          </substep>
+          <substep>
+            <cmd>Re-solder the output jack wires to the output jack.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>While not pictured in the diagram, your guitar body should have a wire running from one
+          of the bridge peg slots into the electronics cavity. Solder the end of that wire (in the
+          electronics cavity) to the volume pot casing.</cmd>
+        <info>If your guitar body does not have this wire, perform the following substeps to create
+          one.</info>
+        <substeps>
+          <substep>
+            <cmd>Cut and strip the ends off one more black wire, at least 6 inches long..</cmd>
+          </substep>
+          <substep>
+            <cmd>Run the wire from the electronics cavity into the bridge slot through the small
+              hole in the cavity wall.</cmd>
+          </substep>
+          <substep>
+            <cmd>Fray the end of the wire in the bridge slot and press the frays into the wall.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder the other end to the volume pot casing.</cmd>
+          </substep>
+        </substeps>
+      </step>
+
+    </steps>
+  </taskbody>
+</task>
