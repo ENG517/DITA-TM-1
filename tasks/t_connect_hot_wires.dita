@@ -19,6 +19,7 @@
             <cmd>Solder one of the separate ends to Lug 1 of the tone pot.</cmd>
           </substep>
           <substep>
+            <!-- This could be some reference material -->
             <cmd>Solder the other separate end to the Tip of the output jack.</cmd>
             <info>The Tip of the output jack is the smaller outer-most lug</info>
           </substep>

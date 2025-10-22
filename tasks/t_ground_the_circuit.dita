@@ -34,6 +34,7 @@
         </stepresult>
       </step>
       <step>
+        <!-- This could be some reference material -->
         <cmd>Solder the final black wire from the casing of the volume pot to the Sleeve of the
           output jack.</cmd>
         <info>The Sleeve of the output jack is the larger inner-most lug.</info>
