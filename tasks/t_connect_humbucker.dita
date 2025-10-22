@@ -11,6 +11,11 @@
       <step>
         <cmd>Solder the white, green, or yellow wire, depending on the type and brand of your
           humbucker, to the casing of the volume pot.</cmd>
+        <stepresult>
+          <image
+              href="../assets/images/humbucker-wire.png"
+              alt="Wiring diagram showing where to connect humbucker wires"></image>
+        </stepresult>
       </step>
     </steps>
   </taskbody>

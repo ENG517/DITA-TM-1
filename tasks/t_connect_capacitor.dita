@@ -27,6 +27,13 @@
             <cmd>Solder the folded end to the pot casing.</cmd>
           </substep>
         </substeps>
+        <stepresult>
+          <image
+              href="../assets/images/tone-pot-side-view.png"
+              alt="Diagram showing the tone pot side view with parallel capacitor leg"></image>
+          <note type="note">The
+          image shows how the capacitor leg should be positioned and soldered to the pot casing.</note>
+        </stepresult>
       </step>
     </steps>
   </taskbody>
