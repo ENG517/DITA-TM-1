@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enter_unique_id_here">
+  <title>Connect the Humbucker</title>
+  <shortdesc> Connecting a humbucker to volume and tone pots. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Solder the black wire to Lug 3 of your designated volume pot.</cmd>
+      </step>
+      <step>
+        <cmd>Solder the white, green, or yellow wire, depending on the type and brand of your
+          humbucker, to the casing of the volume pot.</cmd>
+        <stepresult>
+          <image
+              href="../assets/images/humbucker-wire.png"
+              alt="Wiring diagram showing where to connect humbucker wires"></image>
+        </stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>
