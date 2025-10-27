@@ -3,7 +3,7 @@
 <reference id="r_wiring_components" xml:lang="en-US">
   <title>Wiring Components</title>
   <shortdesc>
-    Wiring components are used to wire humbucker circuits in various configurations in electric guitars.
+    Wiring components are used to wire pickup circuits in various configurations in electric guitars.
   </shortdesc>
   <refbody>
     <!-- Section on potentiometers -->
