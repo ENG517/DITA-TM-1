@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_troubleshoot_weak_no_sound">
+  <title>Troubleshoot Weak or No Sound</title>
+  <shortdesc>Diagnose and fix weak or absent sound in your guitar circuit by systematically checking common failure points.</shortdesc>
+  <taskbody>
+    <context>
+      <p>If your guitar circuit produces weak or no sound, work through each of the following troubleshooting steps in order. Each step tests a different potential cause of the problem.</p>
+    </context>
+    <result>
+      <p>By systematically working through these troubleshooting steps, you have identified and resolved the cause of weak or no sound in your guitar circuit.</p>
+    </result>
+  </taskbody>
+</task>
