@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_enter_unique_id_here">
   <title>Test the Circuit</title>
-  <shortdesc> Everything is wired in place. Now, it's time to test things out. </shortdesc>
+  <shortdesc> How to test the circuit by checking for sound. </shortdesc>
   <taskbody>
     <steps>
       <step>

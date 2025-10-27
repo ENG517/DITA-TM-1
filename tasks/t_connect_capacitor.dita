@@ -17,7 +17,7 @@
         <cmd>Solder the hot end Lug 2 of the tone pot.</cmd>
       </step>
       <step>
-        <cmd>Connect the ground end</cmd>
+        <cmd>Connect the ground end.</cmd>
         <substeps>
           <substep>
             <cmd>Place the other leg of the capacitor against the tone pot case and fold the end to

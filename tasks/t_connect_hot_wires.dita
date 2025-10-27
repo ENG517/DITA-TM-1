@@ -6,8 +6,7 @@
   <taskbody>
     <steps>
       <step>
-        <cmd>Twist together the stripped ends of the two red wires you previously cut on one side
-          only, leaving the other ends separate.</cmd>
+        <cmd>Twist together the stripped ends of the cut red wires, leaving the other ends separate.</cmd>
       </step>
       <step>
         <cmd>Solder the hot wires</cmd>
