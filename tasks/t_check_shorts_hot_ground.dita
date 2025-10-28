@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="check_shorts_hot_ground">
+<task id="t_check_shorts_hot_ground">
   <title>Check for Shorts Between Hot and Ground</title>
   <shortdesc>A stray strand of wire, solder blob, or capacitor lead is touching a grounding point.</shortdesc>
   <taskbody>

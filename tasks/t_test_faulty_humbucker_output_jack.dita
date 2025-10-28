@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="test_faulty_humbucker_output_jack">
+<task id="t_test_faulty_humbucker_output_jack">
   <title>Test for Faulty Humbucker or Output Jack</title>
   <shortdesc>There's a problem with the pickup itself or the output jack.</shortdesc>
   <taskbody>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="check_cold_solder_joints">
+<task id="t_check_cold_solder_joints">
   <title>Check for Cold Solder Joints</title>
   <shortdesc>Solder didn't fully bond to the lug or casing (dull, grainy, or blobbed look).</shortdesc>
   <taskbody>

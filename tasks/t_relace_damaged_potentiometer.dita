@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="replace_damaged_potentiometer">
+<task id="t_replace_damaged_potentiometer">
   <title>Replace Damaged or Faulty Potentiometer</title>
   <shortdesc>If none of the other solutions fix the problem, you have likely fried the carbon track on one or both of the pots. The only solution is to replace the pot(s).</shortdesc>
   <taskbody>

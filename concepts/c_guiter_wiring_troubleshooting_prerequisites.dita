@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_guitar_wiring_troubleshooting_prerequisites">
+  <title>Prerequisites</title>
+  <shortdesc>Required knowledge and skills before troubleshooting guitar wiring issues.</shortdesc>
+  <conbody>
+    <p>You should have already completed the Wiring a Single-Humbucker Setup: Connecting Components guide.</p>
+  </conbody>
+</concept>

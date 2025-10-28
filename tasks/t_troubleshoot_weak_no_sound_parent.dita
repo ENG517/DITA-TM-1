@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="troubleshoot_weak_no_sound_parent">
+<task id="t_troubleshoot_weak_no_sound_parent">
   <title>Troubleshoot Weak or No Sound Coming from the Circuit</title>
   <shortdesc>Follow each problem-solution in order to rule out each one.</shortdesc>
   <taskbody>

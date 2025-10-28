@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="verify_pickup_grounding_connection">
+<task id="t_verify_pickup_grounding_connection">
   <title>Verify Pickup is Properly Grounded and Connected</title>
   <shortdesc>Wrong color wires used for hot/ground, or coil leads not joined correctly.</shortdesc>
   <taskbody>
