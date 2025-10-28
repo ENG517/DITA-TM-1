@@ -2,11 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="fix_miswired_connections">
   <title>Miswired Connections</title>
-  <shortdesc>Correct wiring errors where the hot wire is accidentally soldered to ground or lugs are mixed up on the pots or jack.</shortdesc>
+  <shortdesc>Hot wire may be accidentally soldered to ground, or lugs may be mixed up on the pots or jack.</shortdesc>
   <taskbody>
-    <context>
-      <p>Miswired connections occur when wires are soldered to incorrect lugs. This results in weak or no sound from the circuit.</p>
-    </context>
     <steps>
       <step>
         <cmd>Double-check wiring against the diagram.</cmd>

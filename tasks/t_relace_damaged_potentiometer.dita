@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="replace_damaged_potentiometer">
+  <title>Replace Damaged or Faulty Potentiometer</title>
+  <shortdesc>If none of the other solutions fix the problem, you have likely fried the carbon track on one or both of the pots. The only solution is to replace the pot(s).</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Replace the pot(s).</cmd>
+        <info>
+          <note type="important">Ensure your soldering iron reaches at least 360 degrees Celsius to limit the amount of time the iron is in contact with the carbon track. Solder quickly and use heat sinks.</note>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>If sound is restored, the problem was a damaged or faulty potentiometer.</p>
+    </result>
+  </taskbody>
+</task>
