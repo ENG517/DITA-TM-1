@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_test_output_jack_functionality">
+  <title>Output Jack</title>
+  <shortdesc>Determine if the output jack is faulty by testing with a different humbucker</shortdesc>
+  <taskbody>
+    <prereq>
+      <p>You should have already tested the humbucker with a direct connection to the output jack and confirmed that the problem persists.</p>
+    </prereq>
+    <context>
+      <p>If weak or no sound continues after connecting the humbucker directly to the output jack, either the humbucker or the output jack is faulty.</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Solder a different humbucker to the output jack.</cmd>
+        <choices>
+          <choice>If the circuit produces sound, it's a faulty humbucker and needs to be replaced</choice>
+          <choice>If the problem persists, the output jack is faulty and needs to be replaced</choice>
+        </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>
