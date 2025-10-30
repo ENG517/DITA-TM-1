@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="m_enter_unique_id">
-  <title></title>
-  <topicref href="" format="ditamap">
-    <topicmeta>
-      <navtitle></navtitle>
-    </topicmeta>
+<map id="_map_guite_wiring_troubleshooting">
+  <title>Guiter Wiring TroubleShooting</title>
+
+  <!-- Concept Topics -->
+
+  <topicref type="concept" href="concepts/c_guiter_wiring_troubleshooting_overview.dita"/>
+  <topicref type="concept" href="concepts/c_prerequisites.dita"/>
+    
+  <!-- Task Topics -->
+
+  <topicref type="task" href="tasks/t_pot_knob_direction_copy.dita"/>
+
+  <!-- Task Topics --> 
+  <!-- Parent Task with Child Tasks (nested) -->
+
+  <topicref type="task" href="tasks/t_troubleshoot_weak_no_sound_parent.dita">
+    <topicref type="task" href="tasks/t_test_faulty_humbucker_output_jack.dita"/>
+    <topicref type="task" href="tasks/t_fix_miswired_connections.dita"/>
+    <topicref type="task" href="tasks/t_check_cold_solder_joints.dita"/>
+    <topicref type="task" href="tasks/t_check_shorts_hot_ground.dita"/>
+    <topicref type="task" href="tasks/t_verify_pickup_grounding_connection.dita"/>
+    <topicref type="task" href="tasks/t_relace_damaged_potentiometer.dita"/>
   </topicref>
+    
+  <!-- Task Topics --> 
+
+  <topicref type="task" href="tasks/t_troubleshoot_circuit_humming.dita"/>
+
 </map>
