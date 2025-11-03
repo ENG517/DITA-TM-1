@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="intro-guitar-wiring">
+  <title>Wiring a Single-Humbucker Circuit</title>
+  <conbody>
+    <p>This guide explains the procedure for wiring a single-humbucker electric guitar circuit.
+      While intermediate users may be able to complete this guide on its own, it is intended as a
+      follow-up to the Wiring a Single-Humbucker Setup: Preparing Materials guide.</p>
+    <p>If you are a beginner, make sure to complete the preparation guide before starting this
+      procedure.</p>
+  </conbody>
+</concept>

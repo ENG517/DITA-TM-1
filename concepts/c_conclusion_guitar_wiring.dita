@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="intro-guitar-wiring">
+  <title>After Completing the Wiring</title>
+  <conbody>
+    <p>With the completion of this guide, you have successfully wired a single-humbucker setup with
+      volume and tone control. Plug in your guitar, test each knob, and enjoy your new sound.</p>
+    <p>If you’d like to expand later, this setup also provides a good foundation for adding
+      coil-splitting or installing a second pickup.</p>
+  </conbody>
+</concept>
