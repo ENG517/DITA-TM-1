@@ -10,7 +10,7 @@
     
   <!-- Task Topics -->
 
-  <topicref type="task" href="tasks/t_pot_knob_direction_copy.dita"/>
+  <topicref type="task" href="tasks/t_pot_knob_direction.dita"/>
 
   <!-- Task Topics --> 
   <!-- Parent Task with Child Tasks (nested) -->
