@@ -9,7 +9,7 @@
         <cmd>Twist together the stripped ends of the cut red wires, leaving the other ends separate.</cmd>
       </step>
       <step>
-        <cmd>Solder the hot wires</cmd>
+        <cmd>Solder the hot wires.</cmd>
         <substeps>
           <substep>
             <cmd>Solder the twisted end to Lug 2 of the volume pot.</cmd>
