@@ -10,7 +10,7 @@
     <steps>
       <step>
         <cmd>
-          De-solder the outer lugs of the affected pot(s)
+          De-solder the outer lugs of the affected pot(s).
         </cmd>
       </step>
       <step>
@@ -19,6 +19,6 @@
         </cmd>
       </step>
     </steps>
-    <result><p>The pot knob now turns in the correct direction</p></result>
+    <result><p>The pot knob now turns in the correct direction.</p></result>
   </taskbody>
 </task>
