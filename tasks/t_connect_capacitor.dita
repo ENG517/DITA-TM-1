@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_enter_unique_id_here">
+  <title>Connect the Capacitor</title>
+  <shortdesc> Soldering the ends of the capacitor to the tone pot. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Choose a leg of the capacitor to be the "hot" end.</cmd>
+        <info>
+          <note type="note">
+            <!-- This could be some reference material --> Since this kind of capacitor is non-polarized, meaning current can flow
+          in either direction, it does not matter which end you choose to be the hot end. </note>
+        </info>
+      </step>
+      <step>
+        <cmd>Solder the hot end Lug 2 of the tone pot.</cmd>
+      </step>
+      <step>
+        <cmd>Connect the ground end.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Place the other leg of the capacitor against the tone pot case and fold the end to
+              be parallel with the pot casing.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder the folded end to the pot casing.</cmd>
+          </substep>
+        </substeps>
+        <stepresult>
+          <image
+              href="../assets/images/tone-pot-side-view.png"
+              alt="Diagram showing the tone pot side view with parallel capacitor leg"></image>
+          <note type="note">The
+          image shows how the capacitor leg should be positioned and soldered to the pot casing.</note>
+        </stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>
