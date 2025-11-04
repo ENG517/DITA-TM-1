@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_guitar_wiring_troubleshooting_overview">
+  <title>Guitar Wiring Troubleshooting</title>
+  <shortdesc>Common problems encountered when wiring guitar electronics and potential solutions.</shortdesc>
+  <conbody>
+    <p>Follow each problem-solution in order to rule out each one.</p>
+    <section>
+      <title></title>
+      <p>This guide covers the following common wiring problems:</p>
+      <ul>
+        <li>Pot knob direction is flipped</li>
+        <li>Weak or no sound coming from the circuit</li>
+        <li>Circuit is humming</li>
+    </ul>
+    </section>
+    <section>
+      <title>Troubleshooting Approach</title>
+      <p>Work through each potential cause systematically in the order presented. This methodical approach helps you identify and resolve issues efficiently.</p>
+    </section>
+  </conbody>
+</concept>
