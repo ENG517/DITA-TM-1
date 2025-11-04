@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_test_faulty_humbucker_output_jack">
+  <title>Test for Faulty Humbucker or Output Jack</title>
+  <shortdesc>There's a problem with the pickup itself or the output jack.</shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>De-solder the humbucker.</cmd>
+      </step>
+      <step>
+        <cmd>Disconnect the wires from the output jack.</cmd>
+      </step>
+      <step>
+        <cmd>Re-solder the humbucker directly to the output jack.</cmd>
+        <info>
+          <ul>
+            <li>Hot wire to the Tip Lug.</li>
+            <li>Ground wire to the Sleeve Lug.</li>
+          </ul>
+        </info>
+        <stepresult>If the circuit produces sound with a direct connection, it's a problem with the pots.</stepresult>
+      </step>
+      <step>
+        <cmd>If the problem persists after soldering a direct connection, solder a different humbucker to the output jack.</cmd>
+        <stepresult>If the circuit produces sound, it's a faulty humbucker. If the problem persists, it's a faulty output jack and you need to replace it.</stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>
