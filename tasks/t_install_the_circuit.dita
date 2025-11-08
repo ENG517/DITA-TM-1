@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_enter_unique_id_here">
+<task id="t_install_circuit">
   <title>Install the Circuit</title>
   <shortdesc> If everything checks out with the circuit test, you can go ahead and install the parts
     into the body of the guitar. </shortdesc>
