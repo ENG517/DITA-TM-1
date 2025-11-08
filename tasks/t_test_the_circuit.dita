@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_enter_unique_id_here">
+<task id="t_test_circuit">
   <title>Test the Circuit</title>
   <shortdesc> How to test the circuit by checking for sound. </shortdesc>
   <taskbody>

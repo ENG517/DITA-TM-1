@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_enter_unique_id_here">
+<task id="t_connect_hot_wires">
   <title>Connect the Hot Wires</title>
   <shortdesc> Joining and soldering the hot wires to the pots and output jack. </shortdesc>
   <taskbody>
