@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="r_wiring_components" xml:lang="en-US">
+<reference audience="novice" id="r_wiring_components" xml:lang="en-US">
   <title>Wiring Components</title>
   <shortdesc>
     Wiring components are used to wire pickup circuits in various configurations in electric guitars.
   </shortdesc>
   <refbody>
+
     <!-- Section on potentiometers -->
     <section>
       <title>Potentiometers</title>
@@ -20,6 +21,7 @@
         </ul>
       </p>
     </section>
+
     <!-- Section on hot wires and ground wires -->
     <section>
       <title>Hot Wires and Ground Wires</title>
@@ -27,6 +29,7 @@
         In guitar wiring, there are two types of wires: hot wires and ground wires. Hot wires carry the electrical signal from the pickups to the output jack, while ground wires provide a return path for the electrical current and help reduce noise and interference.
       </p>
     </section>
+
     <!-- Section on skills -->
     <section>
       <title>Skills</title>
@@ -34,5 +37,6 @@
         When working with wiring components, it's essential to have basic soldering skills. This includes knowing how to heat the soldering iron and apply solder to the joint. Practice on spare wires before working on your guitar to ensure clean and secure connections. 
       </p>
     </section>
+
   </refbody>
 </reference>
