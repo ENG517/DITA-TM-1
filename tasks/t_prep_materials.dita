@@ -14,7 +14,7 @@ Preparing the materials needed to wire a simple single-humbucker circuit in an e
         <cmd>
           Determine the humbucker hot and ground wires.
         </cmd>
-        <choices audience="novice intermediate">
+        <choices audience="novice">
           <choice>
             If your humbucker has only two wires, you have a 2-conductor humbucker
             <ul>
@@ -70,7 +70,7 @@ Preparing the materials needed to wire a simple single-humbucker circuit in an e
         <cmd>
           Prepare the solid wire.
         </cmd>
-        <substeps audience="novice intermediate">
+        <substeps audience="novice">
           <substep>
             <cmd>
               Strip a 1 inch section off the end of the solid core spool.
