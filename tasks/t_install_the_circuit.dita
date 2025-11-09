@@ -50,7 +50,7 @@
         </substeps>
       </step>
       <step audience="expert">
-        <cmd>Connect the bridge ground wire to the volume pot casing.</cmd>
+        <cmd>Solder the bridge ground wire to the volume pot casing.</cmd>
         <info>If your guitar does not have a bridge ground wire, you'll need to cut and install one
           yourself.</info>
       </step>

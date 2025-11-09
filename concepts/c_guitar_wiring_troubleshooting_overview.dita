@@ -12,11 +12,13 @@
         <li>Pot knob direction is flipped</li>
         <li>Weak or no sound coming from the circuit</li>
         <li>Circuit is humming</li>
-    </ul>
+      </ul>
     </section>
     <section>
       <title>Troubleshooting Approach</title>
-      <p>Work through each potential cause systematically in the order presented. This methodical approach helps you identify and resolve issues efficiently.</p>
+      <p>Work through each potential cause systematically in
+      the order presented. This methodical approach helps you identify and resolve issues
+      efficiently.</p>
     </section>
   </conbody>
 </concept>
