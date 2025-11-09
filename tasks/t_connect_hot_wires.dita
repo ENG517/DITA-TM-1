@@ -10,7 +10,7 @@
       </step>
       <step>
         <cmd>Solder the hot wires.</cmd>
-        <substeps>
+        <substeps audience="novice intermediate">
           <substep>
             <cmd>Solder the twisted end to Lug 2 of the volume pot.</cmd>
           </substep>

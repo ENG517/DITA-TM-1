@@ -6,10 +6,6 @@
                   action="exclude" />
       <prop
                   att="audience"
-                  val="intermediate"
-                  action="exclude" />
-      <prop
-                  att="audience"
                   val="expert"
                   action="include" />
 </val>
