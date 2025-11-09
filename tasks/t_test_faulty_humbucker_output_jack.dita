@@ -13,7 +13,7 @@
       </step>
       <step>
         <cmd>Re-solder the humbucker directly to the output jack.</cmd>
-        <info>
+        <info audience="novice">
           <ul>
             <li>Hot wire to the Tip Lug.</li>
             <li>Ground wire to the Sleeve Lug.</li>
