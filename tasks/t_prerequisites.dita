@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_prerequisites">
+<task audience="novice" id="t_prerequisites">
   <title>Wiring Prerequisites</title>
   <shortdesc>
     Prerequisites for wiring a simple single-humbucker circuit in an electric guitar.

@@ -7,7 +7,7 @@
     <steps>
       <step>
         <cmd>Connect to an amp.</cmd>
-        <substeps>
+        <substeps audience="novice">
           <substep>
             <cmd>Plug a 1/4 inch cable from the output jack to an amp.</cmd>
           </substep>
@@ -22,11 +22,14 @@
           <substep>
             <cmd>Turn the knob of the volume pot all the way clockwise.</cmd>
           </substep>
-          <substep>
+          <substep audience="expert">
+            <cmd>Tap a screwdriver on the humbucker to test if sound is coming through</cmd>
+          </substep>
+          <substep audience="novice">
             <cmd>Using your phone, or any music playing device, play a song and hold the speaker up
               to the humbucker. You should hear the song playing through the amp.</cmd>
           </substep>
-          <substep>
+          <substep audience="novice">
             <cmd>With the song still playing against the humbucker, turn the knob of the volume pot
               counter-clockwise. You should hear the song get quieter as you turn, going completely
               mute when the knob is turned fully counter-clockwise.</cmd>

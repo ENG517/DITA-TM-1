@@ -6,18 +6,12 @@
   <taskbody>
     <steps>
       <step>
-        <cmd>Use one of the following methods to Lug 1 of the volume pot.</cmd>
-        <choices>
-          <choice>Solder the fully-stripped 0.5 inch solid core wire from Lug 1 of the volume pot
-            straight back to the volume pot casing. <note type="warning">Depending on the size of
-            the pots you have, 0.5 inches may be too large. If the wire is too large, you again risk
-            breakage or a cold solder connection that will nullify the grounding.</note>
-          </choice>
-          <choice>Bend Lug 1 of the volume pot back and solder it directly to the casing, which is
-            far more time and space efficient. <note type="warning">I do not recommend using this
-            unless you are confident in your soldering abilities.</note>
-          </choice>
-        </choices>
+        <cmd>
+          <ph audience="novice">Solder the fully-stripped 0.5 inch solid core wire from Lug 1 of the
+          volume pot straight back to the volume pot casing.</ph>
+          <ph audience="expert">Bend back Lug
+          1 and and solder it directly to the casing.</ph>
+        </cmd>
         <stepresult>
           <image
               href="../assets/images/lug1-ground.png"
@@ -25,8 +19,8 @@
         </stepresult>
       </step>
       <step>
-        <cmd>Solder one of the black wires you previously cut from the volume pot casing to the tone
-          pot casing.</cmd>
+        <cmd>Solder a wire between the volume and tone pot casings.</cmd>
+        <info audience="novice"> Use the black wire you cut earlier from the volume pot casing. </info>
         <stepresult>
           <image
               href="../assets/images/pot-ground.png"
@@ -34,10 +28,9 @@
         </stepresult>
       </step>
       <step>
-        <!-- This could be some reference material -->
         <cmd>Solder the final black wire from the casing of the volume pot to the Sleeve of the
           output jack.</cmd>
-        <info>The Sleeve of the output jack is the larger inner-most lug.</info>
+        <info audience="novice">The Sleeve of the output jack is the larger inner-most lug.</info>
         <stepresult>
           <image
               href="../assets/images/output-jack-ground.png"
