@@ -65,7 +65,6 @@ Identify and correct the wiring or grounding issue causing the volume control to
 
 Map Outline:
 - c_guitar_wiring_troubleshooting_overview
-- c_filename.dita (File title)
 - t_weak_or_no_sound_parent.dita
   - t_check_cold_solder_joints.dita
   - t_fix_miswired_connection.dita
