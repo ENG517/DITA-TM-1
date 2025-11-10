@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map
+        id="_map_scenario1"
+        audience="novice">
+    <title>Guitar Wiring for Beginners: A Single-Humbucker Setup</title>
+    <topicref
+            type="concept"
+            href="concepts/c_intro_guitar_wiring.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_prerequisites.dita" />
+    <topicref
+            type="reference"
+            href="references/r_wiring_components.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_prep_materials.dita" />
+    <topicref
+            type="reference"
+            href="references/r_soldering_details.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_connect_hot_wires.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_ground_the_circuit.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_install_the_circuit.dita" />
+    <topicref
+            type="task"
+            href="tasks/t_test_the_circuit.dita" />
+</map>
