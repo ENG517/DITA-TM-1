@@ -76,9 +76,9 @@ Map Outline:
   - `t_fix_miswired_connection.dita`
   - `t_verify_pickup_grounding_connection.dita`
   - `t_replace_damaged_potentiometers.dita`
-- `r_soldering_details.dita`
-- `t_connect_hot_wires.dita`
-- `t_ground_the_circuit.dita`
+    - `r_soldering_details.dita`
+    - `t_connect_hot_wires.dita`
+    - `t_ground_the_circuit.dita`
 
 ## Folders &amp; Files
 
