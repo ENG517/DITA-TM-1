@@ -7,7 +7,7 @@
     <steps>
       <step>
         <cmd>Check for pot grounding issue.</cmd>
-        <info audience="novice">This could also be caused by cold solder joints with the grounding wires.</info>
+        <info>This could also be caused by cold solder joints with the grounding wires.</info>
         <substeps audience="novice">
           <substep>
             <cmd>Double check all solder points for grounding wires (dull, grainy, or blobbed look).</cmd>
@@ -19,7 +19,7 @@
       </step>
       <step>
         <cmd>Check for bridge grounding issue.</cmd>
-        <info audience="novice">Bridge ground is either missing or the solder point is cold.</info>
+        <info>Bridge ground is either missing or the solder point is cold.</info>
         <substeps audience="novice">
           <substep>
             <cmd>Ensure the bridge ground wire is soldered to the back of the volume pot casing.</cmd>
