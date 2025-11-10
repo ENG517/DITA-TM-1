@@ -3,28 +3,15 @@
 <map id="_map_guitar_wiring_troubleshooting_casey">
 <title>Guitar Wiring Troubleshooting</title>
 
-<!-- Concept Topic: Overview -->
 <topicref type="concept" href="concepts/c_guitar_wiring_troubleshooting_overview.dita"/>
-
-<!-- Parent Task: Troubleshoot Weak or No Sound -->
 <topicref type="task" href="tasks/t_troubleshoot_weak_no_sound_parent.dita">
-    <!-- Child Task: Check cold solder joints -->
     <topicref type="task" href="tasks/t_check_cold_solder_joints.dita"/>
-    
-    <!-- Child Task: Fix miswired connection -->
     <topicref type="task" href="tasks/t_fix_miswired_connections.dita"/>
-    
-    <!-- Child Task: Verify pickup grounding connection -->
     <topicref type="task" href="tasks/t_verify_pickup_grounding_connection.dita"/>
-    
-    <!-- Child Task: Replace damaged potentiometers -->
     <topicref type="task" href="tasks/t_replace_damaged_potentiometer.dita"/>
 </topicref>
 
-<!-- Reference Topic: Soldering Details -->
 <topicref type="reference" href="references/r_soldering_details.dita"/>
-
-<!-- Additional Task Topics -->
 <topicref type="task" href="tasks/t_connect_hot_wires.dita"/>
 <topicref type="task" href="tasks/t_ground_the_circuit.dita"/>
 
