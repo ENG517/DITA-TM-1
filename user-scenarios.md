@@ -2,7 +2,7 @@
 
 ## Scenario 1 
 
-Jordan is a hobby guitarist who has been playing for a few years. They mostly play at home and occasionally jam with friends. Their main guitar is a Squier Stratocaster they bought used. It plays well, but the volume knob has become scratchy and cuts in and out when they roll it. Jordan also wants a smoother taper so the volume roll-off feels more natural while playing.
+Jordan is a hobby guitarist who has been playing for a few years. They mostly play at home and occasionally jam with friends. Their main guitar is a Les Paul Jr. they bought used. It plays well, but the volume knob has become scratchy and cuts in and out when they roll it. Jordan also wants a smoother taper so the volume roll-off feels more natural while playing.
 
 Jordan doesn’t have a lot of experience with electronics, but they’ve done basic maintenance before—string changes, pickup height adjustments, and installing a new output jack with help from a YouTube tutorial. They’re comfortable with a soldering iron but still double-check every step.
 
