@@ -22,7 +22,7 @@ Install a new set of 250k pots and a 0.022µF capacitor, ensuring clean solder j
 
 ## Scenario 3
 
-Casey is an intermediate guitarist who’s been playing for several years. They’re comfortable doing simple guitar setup work—adjusting action, restringing, adjusting pickup height—and they recently felt confident enough to replace the electronic components in their Les Paul. They installed new 250k pots, a 0.047µF capacitor, and a fresh output jack.
+Casey is an intermediate guitarist who’s been playing for several years. They’re comfortable doing simple guitar setup work—adjusting action, restringing, adjusting pickup height, and they recently felt confident enough to replace the electronic components in their Les Paul. They installed new 250k pots, a new capacitor, and a fresh output jack.
 
 The installation seemed to go smoothly. Casey followed a wiring diagram and took reference photos before desoldering. However, after reassembling the guitar, plugging into their practice amp, and testing the controls, they notice an issue:
 
