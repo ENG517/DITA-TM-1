@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="_map_user_scenario_two">
+  <title>Installing New Electronics: A Single-Humbucker Setup</title>
+
+  <!-- Concept Topics -->
+
+  <topicref
+      type="concept"
+      href="concepts/c_intro_guitar_wiring.dita" />
+
+  <!-- Task Topics -->
+
+  <topicref
+      type="task"
+      href="tasks/t_connect_humbucker.dita" />
+  <topicref
+      type="task"
+      href="tasks/t_connect_hot_wires.dita" />
+  <topicref
+      type="task"
+      href="tasks/t_ground_the_circuit.dita" />
+  <topicref
+      type="task"
+      href="tasks/t_test_the_circuit.dita" />
+
+</map>
