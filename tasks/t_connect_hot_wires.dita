@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_connect_hot_wires">
+  <title>Connect the Hot Wires</title>
+  <shortdesc> Joining and soldering the hot wires to the pots and output jack. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Twist together the stripped ends of the cut red wires, leaving the other ends separate.</cmd>
+      </step>
+      <step>
+        <cmd>Solder the hot wires.</cmd>
+        <info audience="expert">Consult the diagram below for wire placement.</info>
+        <substeps audience="novice">
+          <substep>
+            <cmd>Solder the twisted end to Lug 2 of the volume pot.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder one of the separate ends to Lug 1 of the tone pot.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder the other separate end to the Tip of the output jack.</cmd>
+            <info>The Tip of the output jack is the smaller outer-most lug</info>
+          </substep>
+        </substeps>
+        <stepresult>
+          <image
+              href="../assets/images/lug2-wire.png"
+              alt="Wiring diagram showing the volume pot hot wire connections"></image>
+        </stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>

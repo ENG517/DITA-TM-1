@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_prep_materials">
+  <title>Prepare Materials</title>
+  <shortdesc>
+Preparing the materials needed to wire a simple single-humbucker circuit in an electric guitar.
+  </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <note type="attention">
+          If you have a 4-conductor humbucker, ensure the two wires that are NOT the hot wires are soldered together and taped off with electrical tape. Failure to do so will cause major noise bleed and a weak sound.
+        </note>
+        <cmd>
+          Determine the humbucker hot and ground wires.
+        </cmd>
+        <choices audience="novice">
+          <choice>
+            If your humbucker has only two wires, you have a 2-conductor humbucker
+            <ul>
+              <li>
+                The black wire is the hot wire
+              </li>
+              <li>
+                The white wire is the ground wire
+              </li>
+            </ul>
+          </choice>
+          <choice>
+            If your humbucker has four wires, you have a 4-conductor humbucker
+            <ul>
+              <li>
+                The black wire is the hot wire
+              </li>
+              <li>
+                The yellow or green wire is the ground wire
+                <note type="note">
+                  You will only have a green or a yellow wire, but never both.
+                </note>
+              </li>
+            </ul>
+          </choice>
+        </choices>
+      </step>
+      <step>
+        <cmd>
+          Orient the pots.
+        </cmd>
+        <info audience="novice">
+          Flip both pots so the knobs are facing down and the flat metal casing and lugs are pointing up. with Lug 3 on the left (refer to pot diagram for specific lug placement).
+        </info>
+      </step>
+      <step>
+        <cmd>
+          Label pot casings.
+        </cmd>
+        <info audience="novice">
+          With a permanent marker, label one pot with V for volume and the other with a T for tone on the back of the casings (the flat side). Since both are 500k pots, it doesn't matter which is which.
+        </info>
+      </step>
+      <step>
+        <cmd>
+          Prepare threaded wires.
+        </cmd>
+        <info audience="novice">
+          Cut four 3.5-inch wires from the threaded spools, two black and two red, then strip the ends.
+        </info>
+      </step>
+      <step>
+        <cmd>
+          Prepare the solid wire.
+        </cmd>
+        <substeps audience="novice">
+          <substep>
+            <cmd>
+              Strip a 1 inch section off the end of the solid core spool.
+            </cmd>
+          </substep>
+          <substep>
+            <cmd>
+              Cut half of the stripped section off. You should be left with a 0.5-inch fully-stripped wire.
+            </cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>
+          Tin the wires
+        </cmd>
+        <info audience="novice">
+          Apply a small amount of solder to the stripped ends of the five wires you just cut AND the humbucker hot and ground wires, just enough to coat the ends. This will make it easier to solder them to the pots.
+        </info>
+      </step>
+      <step>
+        <cmd>
+          Prepare the capacitor
+        </cmd>
+        <info audience="novice">
+          If the capacitor has extra long legs, cut each leg to just under 0.5 inches.
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>
