@@ -12,7 +12,7 @@ Replace the existing volume and tone pots with new 250k pots that offer smoother
 
 ## Scenario 2 
 
-Alex is an experienced guitarist who has been playing and performing for over a decade. They’re familiar with tone shaping concepts—pickup output, pot taper response, treble bleed circuits, and cap values—but they’ve never actually modified a guitar’s internal wiring before. They’re comfortable with soldering because they build their own pedal kits, but guitar wiring still feels unfamiliar territory.
+Alex is an experienced guitarist who has been playing and performing for over a decade. They’re familiar with tone shaping concepts, but they’ve never actually modified a guitar’s internal wiring before. They’re comfortable with soldering because they build their own pedal kits, but guitar wiring still feels unfamiliar territory.
 
 Alex owns an Epiphone Les Paul Jr. they use as a reliable backup guitar. They want to add a new humbucker, a new volume pot, and a no-load tone pot for a more open top-end when rolled up.
 
