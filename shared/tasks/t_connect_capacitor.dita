@@ -32,6 +32,9 @@
               alt="Diagram showing the tone pot side view with parallel capacitor leg"></image>
           <note type="note">The
           image shows how the capacitor leg should be positioned and soldered to the pot casing.</note>
+          <image
+              href="../assets/images/capacitor-wire.png"
+              alt="Diagram showing the capacitor wire placement in relation to the rest of the electronics"></image>
         </stepresult>
       </step>
     </steps>

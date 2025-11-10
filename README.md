@@ -4,7 +4,9 @@ This repo contains a DITA topic model (TM) ...
 
 ## Authors
 
-- Enter names here
+- Nazifa Chowdury
+- Bradon Hassell
+- Jacob Knight
 
 ## Project Maps
 
@@ -16,40 +18,42 @@ Jordan doesn’t have a lot of experience with electronics, but they’ve done b
 
 #### Goal
 
-Replace the existing volume and tone pots with new 250k pots that offer smoother control and better reliability.
+Replace the existing volume and tone pots with new 500k pots.
 
 Map Outline (Novice):
-- c_intro_guitar_wiring.dita
-- t_prerequisites.dita
-- t_prep_materials.dita
-- r_wiring_components.dita
-- r_soldering_details.dita
-- t_connect_hot_wires.dita
-- t_ground_the_circuit.dita
-- t_install_the_circuit.dita
-- t_test_the_circuit.dita
 
-### User Scenario 2: ...
+- `c_intro_guitar_wiring.dita`
+- `t_prerequisites.dita`
+- `t_prep_materials.dita`
+- `r_wiring_components.dita`
+- `r_soldering_details.dita`
+- `t_connect_hot_wires.dita`
+- `t_ground_the_circuit.dita`
+- `t_install_the_circuit.dita`
+- `t_test_the_circuit.dita`
+- `c_conclusion_guitar_wiring.dita`
 
-Alex is an experienced guitarist who has been playing and performing for over a decade. They’re familiar with tone shaping concepts, but they’ve never actually modified a guitar’s internal wiring before. They’re comfortable with soldering because they build their own pedal kits, but guitar wiring still feels unfamiliar territory.
+### User Scenario 2:
+
+Alex is an experienced guitarist who has been playing and performing for over a decade. They’re familiar with tone shaping concepts, but they’ve never actually modified a guitar’s internal wiring before. They’re comfortable with soldering because they build their own pedal kits, but guitar wiring still feels like unfamiliar territory.
 
 Alex owns an Epiphone Les Paul Jr. they use as a reliable backup guitar. They want to add a new humbucker, a new volume pot, and a no-load tone pot for a more open top-end when rolled up.
 
 #### Goal
 
-Install a new a humbucker, a set of 250k pots, and a 0.022µF capacitor, ensuring clean solder joints and maintaining signal integrity.
+Install a new a humbucker, a set of 500k pots, and a 0.022µF capacitor.
 
 Map Outline (Expert):
-- c_intro_guitar_wiring.dita
-- t_prerequisites.dita
-- t_connect_humbucker.dita
-- t_connect_hot_wires.dita
-- t_ground_the_circuit.dita
-- t_test_the_circuit.dita
 
-### User Scenario 3: ...
+- `c_intro_guitar_wiring.dita`
+- `t_connect_humbucker.dita`
+- `t_connect_hot_wires.dita`
+- `t_ground_the_circuit.dita`
+- `t_test_the_circuit.dita`
 
-Casey is an intermediate guitarist who’s been playing for several years. They’re comfortable doing simple guitar setup work—adjusting action, restringing, adjusting pickup height, and they recently felt confident enough to replace the electronic components in their Les Paul. They installed new 250k pots, a new capacitor, and a fresh output jack.
+### User Scenario 3:
+
+Casey is an intermediate guitarist who’s been playing for several years. They’re comfortable doing simple guitar setup work—adjusting action, restringing, adjusting pickup height, and they recently felt confident enough to replace the electronic components in their Les Paul. They installed new 500k pots, a new capacitor, and a fresh output jack.
 
 The installation seemed to go smoothly. Casey followed a wiring diagram and took reference photos before desoldering. However, after reassembling the guitar, plugging into their practice amp, and testing the controls, they notice an issue:
 
@@ -64,15 +68,17 @@ Casey isn't sure whether the issue is a wiring mistake, a cold solder joint, or 
 Identify and correct the wiring or grounding issue causing the volume control to be bypassed or ineffective.
 
 Map Outline:
-- c_guitar_wiring_troubleshooting_overview
-- t_weak_or_no_sound_parent.dita
-  - t_check_cold_solder_joints.dita
-  - t_fix_miswired_connection.dita
-  - t_verify_pickup_grounding_connection.dita
-- t_replace_damaged_potentiometers.dita
-  - r_soldering_details.dita
-  - t_connect_hot_wires.dita
-  - t_ground_the_circuit.dita
+
+- `c_guitar_wiring_troubleshooting_overview.dita`
+- `t_weak_or_no_sound_parent.dita`
+  - `t_test_faulty_humbucker_output_jack.dita`
+  - `t_check_cold_solder_joints.dita`
+  - `t_fix_miswired_connection.dita`
+  - `t_verify_pickup_grounding_connection.dita`
+  - `t_replace_damaged_potentiometers.dita`
+- `r_soldering_details.dita`
+- `t_connect_hot_wires.dita`
+- `t_ground_the_circuit.dita`
 
 ## Folders &amp; Files
 
