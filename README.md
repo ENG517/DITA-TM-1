@@ -1,6 +1,6 @@
-# DITA Topic Model - Enter Title Here
+# DITA Topic Model - Wiring Guitar Electronics for a Single Humbucker
 
-This repo contains a DITA topic model (TM) ...
+This repo contains a DITA topic model (TM) for wiring a single-humbucker setup. It includes topics for prepping materials, properly connecting components, and troubleshooting steps should the user run into any errors.
 
 ## Authors
 
