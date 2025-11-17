@@ -2,10 +2,20 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_shorts_hot_ground">
   <title>Check for Shorts Between Hot and Ground</title>
+  <!-- COMMENT on shortdesc:
+    SOmething to watch out for for the next unit: Remember that SDs are written with with the user goals in mind, so they are able to orient themselves to your task and main object of interaction. In this case, the SD uses a passive voice and begins like a list, so the action is buried/delayed. Furthermore, the user is not mentioned.
+
+    Consider this revision written from the users' perspective: "Learn how to avoid wiring issues by recognizing accidental contact with a grounding point."
+
+    In this revision, those example "strays" should be integrated within the task itself. I'm thinking that there are specific steps for wires vs. solder blobs vs. capacitor lead that replace the first step.
+
+    Take this feedback into account across any other topics.
+  -->
   <shortdesc>A stray strand of wire, solder blob, or capacitor lead is touching a grounding point.</shortdesc>
   <taskbody>
     <steps>
       <step>
+        <!-- This seems like it should be "unpacked", since the SD alludes to multiple possible troubleshooting pathways. -->
         <cmd>Inspect for accidental contact.</cmd>
       </step>
       <step>

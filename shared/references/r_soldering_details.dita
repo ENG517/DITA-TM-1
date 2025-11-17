@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<!-- FORMATTING:
+  - Work on your consistency for formatting your markup throughout the model.
+  - Parent topic: It's ok if you use this format, but it's not used consistently across all files. Pick an approach and stick to it.
+  - Note my reformatting of longer lines. Update throughout all other files.
+-->
 <reference
     id="r_wiring_components"
     xml:lang="en-US">
   <title>Important Details and Warnings for Soldering</title>
-  <shortdesc> When soldering wires to the pot casings, there is a risk of frying the carbon track,
-    which will either break the pot entirely or limit its ability to control volume or tone. </shortdesc>
+  <shortdesc>
+    When soldering wires to the pot casings, there is a risk of frying the carbon track, which will either break the pot entirely or limit its ability to control volume or tone.
+  </shortdesc>
   <refbody>
     <section>
       <title>Steps to Reduce Risk of Heat Damage</title>
       <ul>
-        <li>Ensure your soldering iron is heated to at least 360 degrees Celsius. The hotter it is,
-      the less time it needs to be in contact with the pot casing.</li>
-        <li>After soldering a wire to the pot casing, give it some time to cool before soldering
-      anything else to it.</li>
-        <li>While not required, using <xref
-              scope="external"
-              href="https://www.youtube.com/watch?v=7TQfPwgvEe4">heat sinks</xref> can help limit
-      the amount of heat transfered to the pots.</li>
+        <li>
+          Ensure your soldering iron is heated to at least 360 degrees Celsius. The hotter it is, the less time it needs to be in contact with the pot casing.
+        </li>
+        <li>
+          After soldering a wire to the pot casing, give it some time to cool before soldering anything else to it.
+        </li>
+        <li>
+          While not required, using <xref scope="external" href="https://www.youtube.com/watch?v=7TQfPwgvEe4">heat sinks</xref> can help limit the amount of heat transfered to the pots.
+        </li>
       </ul>
     </section>
   </refbody>

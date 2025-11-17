@@ -12,7 +12,8 @@
       <title>Potentiometers</title>
       <image
               href="../assets/images/potentiometer-diagram.png"
-              alt="Potentiometer diagram"></image>
+              alt="Potentiometer diagram"
+              width="420px"></image>
       <p>A potentiometer (often referred to as a pot) is a type of rotating resistor that will control your guitar's tone and volume. They are what you will be soldering on, so it's important to get acquainted with their parts.
         <ul>
           <li>
