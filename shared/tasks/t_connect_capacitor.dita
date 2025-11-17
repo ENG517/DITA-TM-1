@@ -17,6 +17,7 @@
       </step>
       <step>
         <cmd>Solder the ground end.</cmd>
+        <!-- Good use of the audience attribute/filter here. -->
         <substeps audience="novice">
           <substep>
             <cmd>Place the other leg of the capacitor against the tone pot case and fold the end to

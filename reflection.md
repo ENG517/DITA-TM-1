@@ -64,3 +64,28 @@ Given that, the map reuses three topics to set the user on the right track when 
 
 Since they have already wired things, there's no need for steps on prepping materials, testing, or installing.
 
+### Feedback from Lindgren
+
+Overall, I think you three have produced a really solid topic model. Well done! I have some thoughts and considerations that mostly apply across your scenarios.
+
+***Audience Filtering***
+
+- Your use of `audience="novice"` on the parent element of the reference topic, `r_wiring_components.dita`, makes me wonder if you could reconsider the scenario anew in a topic modeling context. In short, is the DITA map just for beginners, or can you consolidate DITA maps and rely more on filtering attributes to handle any audience-level type?
+  - These questions came up for me, since you put a novice filter on an entire topic at the parent level. If you are considering placing a filter on a parent element of a topic, then, at first glance, I would think y'all are simply deciding to include it in non-expert material in all cases, so there's no need to put an attribute at the parent-level scope. However, is there a situation where you ever think an intermediate or expert audience may need this topic? If so, then be careful where you place such attributes for filtering conditions.
+  - If I take these questions and considerations above into account, I see a fork in the development road for this topic model:
+      1. Develop the model with audience-level attributes at the center of design, then it seems like you only need one wiring guide map. Yet, this requires the use of audience attributes at the parent-level.
+      2. Develop the model with smaller scoped audience attributes and let DITA maps help manage larger units of context.
+  - My instinct says to follow path #2 and not include attributes at the parent level, since topic-based writing should try to remain flexibile across all topics with such conditional attribute work.
+
+***Short descriptions***
+
+- While we will focus more on technical editing in the last unit, I noticed that many of your SDs are written without the user and user task/goal in mind for tasks. I believe I offered one case up for consideration about how to revise everywhere else. I mention it here too since we did cover the basic components of them in class, but some of the SDs do not incorporate the basic moves, or are missign entirely from the file.
+- This content type will probably be a hotspot to consider revising for the last unit.
+
+***Other Feedback***
+
+- See my code changes in the PR. Feel free to ask any questions inline on GH.
+- **Image width**: You can see that I added a width attribute on a larger image, so it didn't break the margins on your outputs. `:-)`
+- **Consistent markup formatting**: There are lots of inconsistent ways the code is being formatted/indented. Be sure to adhere to the same approach throughout. I offer suggestions for longer lines/content in some files for help in this area.
+- **Just a silly idea to consider**: Thinking about liabilities, but also findability, I wonder if you could create a short, tiny topic that is merely a quick linking pointer file to the longer preparing materials topic. That way, if there's any safety content that should be shared with your audience, you can ensure that you help your audiences, regardless of level, find that content more easily without belaboring it. You would then include the longer task topic in the model and map, but it could be more of an Appendix item, if you will. Just an idea.
+- **Broader suggestion about references/concepts**: Lots of your excellent diagrams are buried in task topics only. This feels like a symptom of your content still being informed by a singular guide, rather than a larger topic model ecosystem. That said, I would consider how you could revise your concept and reference topics to include those diagrams more meaningfully. Then, you can potentially use conrefs, when you want to use visual-text combo content that resides in a concept or reference within a task. That way, you need not maintain multiple instances of content related to diagrams/figures. Just a thought.

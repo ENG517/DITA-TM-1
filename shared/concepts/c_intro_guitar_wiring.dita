@@ -3,10 +3,18 @@
 <concept id="intro-guitar-wiring">
   <title>Wiring a Single-Humbucker Circuit</title>
   <conbody>
-    <p>This guide explains the procedure for wiring a single-humbucker electric guitar circuit.
-      While intermediate users may be able to complete this guide on its own, it is intended as a
-      follow-up to the Wiring a Single-Humbucker Setup: Preparing Materials guide.</p>
-    <p>If you are a beginner, make sure to complete the preparation guide before starting this
-      procedure.</p>
+    <!-- Comment on paragraph/longer content
+      Here's an alternative way to format paragraph content and other longer content.
+
+      Also, make sure that you're Word Wrap feature is turned on in your editor, so the lines don't flow off of the screen horizontally.
+
+      Revise for this throughout for formatting consistency.
+    -->
+    <p>
+      This guide explains the procedure for wiring a single-humbucker electric guitar circuit. While intermediate users may be able to complete this guide on its own, it is intended as a follow-up to the Wiring a Single-Humbucker Setup: Preparing Materials guide.
+    </p>
+    <p>
+      If you are a beginner, make sure to complete the preparation guide before starting this procedure.
+    </p>
   </conbody>
 </concept>
