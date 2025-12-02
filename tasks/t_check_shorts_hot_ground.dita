@@ -1,31 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_shorts_hot_ground">
-  <title>Check for Shorts Between Hot and Ground</title>
+  <title>Fix Shorts Between Hot and Ground</title>
   <shortdesc>
-    A stray strand of wire, solder blob, or capacitor lead is touching a grounding point.
+    Identify and remove short circuits that occur when hot wires accidentally contact grounded surfaces.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need a soldering iron, solder wick or desoldering pump, and wire cutters.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        Shorts between hot and ground cause complete signal loss. You can identify these shorts by inspecting for accidental contact between hot connections and grounded metal parts.
+      </p>
+    </context>
     <steps>
       <step>
         <cmd>
-          Inspect for accidental contact.
+          Inspect solder connections for shorts to ground.
         </cmd>
+        <substeps>
+          <substep>
+            <cmd>
+              Look for loose wire strands bridging from hot lugs to the pot casing or output jack sleeve.
+            </cmd>
+            <stepresult>
+              Stray copper strands appear as thin filaments touching metal surfaces.
+            </stepresult>
+          </substep>
+          <substep>
+            <cmd>
+              Check for solder blobs connecting hot terminals to grounded surfaces.
+            </cmd>
+            <stepresult>
+              Excess solder may create bridges between adjacent lugs or to the pot casing.
+            </stepresult>
+          </substep>
+          <substep>
+            <cmd>
+              Verify capacitor leads do not touch the pot casing or control plate.
+            </cmd>
+            <stepresult>
+              Bent or long leads may accidentally contact grounded metal.
+            </stepresult>
+          </substep>
+        </substeps>
       </step>
       <step>
         <cmd>
-          If there is accidental contact, re-solder as needed.
+          Remove any shorts you find.
         </cmd>
+        <choices>
+          <choice>
+            Trim stray wire strands with wire cutters.
+          </choice>
+          <choice>
+            Remove excess solder with solder wick or desoldering pump.
+          </choice>
+          <choice>
+            Bend capacitor leads away from grounded surfaces.
+          </choice>
+        </choices>
+        <stepresult>
+          The hot connection should have no contact with grounded surfaces.
+        </stepresult>
       </step>
       <step>
         <cmd>
-          Clean excess solder.
+          Re-solder any connections that required trimming or cleaning.
         </cmd>
+        <stepresult>
+          Fresh solder should be shiny and smooth with no bridges to ground.
+        </stepresult>
       </step>
     </steps>
     <result>
       <p>
-        If sound is restored, the problem was shorts between hot and ground.
+        If sound is restored after removing shorts, accidental grounding caused the problem.
       </p>
     </result>
   </taskbody>
