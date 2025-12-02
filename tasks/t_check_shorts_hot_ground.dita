@@ -2,21 +2,31 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_shorts_hot_ground">
   <title>Check for Shorts Between Hot and Ground</title>
-  <shortdesc>A stray strand of wire, solder blob, or capacitor lead is touching a grounding point.</shortdesc>
+  <shortdesc>
+    A stray strand of wire, solder blob, or capacitor lead is touching a grounding point.
+  </shortdesc>
   <taskbody>
     <steps>
       <step>
-        <cmd>Inspect for accidental contact.</cmd>
+        <cmd>
+          Inspect for accidental contact.
+        </cmd>
       </step>
       <step>
-        <cmd>If there is accidental contact, re-solder as needed.</cmd>
+        <cmd>
+          If there is accidental contact, re-solder as needed.
+        </cmd>
       </step>
       <step>
-        <cmd>Clean excess solder.</cmd>
+        <cmd>
+          Clean excess solder.
+        </cmd>
       </step>
     </steps>
     <result>
-      <p>If sound is restored, the problem was shorts between hot and ground.</p>
+      <p>
+        If sound is restored, the problem was shorts between hot and ground.
+      </p>
     </result>
   </taskbody>
 </task>

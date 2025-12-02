@@ -2,10 +2,14 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_pot_knob_direction">
   <title>Reversed Lug Connections</title>
-  <shortdesc>Fix a pot knob that turns in the opposite direction by reversing the outer lug connections.</shortdesc>
+  <shortdesc>
+    Fix a pot knob that turns in the opposite direction by reversing the outer lug connections.
+  </shortdesc>
   <taskbody>
     <context>
-      <p>This is the most common error when wiring guitar circuits and happens when you solder the outer lugs backwards, such as soldering the humbucker hot wire to Lug 1 and grounding Lug 3 on the volume pot instead of the other way around.</p>
+      <p>
+        This is the most common error when wiring guitar circuits and happens when you solder the outer lugs backwards, such as soldering the humbucker hot wire to Lug 1 and grounding Lug 3 on the volume pot instead of the other way around.
+      </p>
     </context>
     <steps>
       <step>
@@ -19,6 +23,10 @@
         </cmd>
       </step>
     </steps>
-    <result><p>The pot knob now turns in the correct direction.</p></result>
+    <result>
+      <p>
+        The pot knob now turns in the correct direction.
+      </p>
+    </result>
   </taskbody>
 </task>

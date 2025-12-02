@@ -2,18 +2,26 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_cold_solder_joints">
   <title>Check for Cold Solder Joints</title>
-  <shortdesc>Solder didn't fully bond to the lug or casing (dull, grainy, or blobbed look).</shortdesc>
+  <shortdesc>
+    Solder didn't fully bond to the lug or casing (dull, grainy, or blobbed look).
+  </shortdesc>
   <taskbody>
     <steps>
       <step>
-        <cmd>Reheat the joint until the solder flows smoothly and makes good contact.</cmd>
+        <cmd>
+          Reheat the joint until the solder flows smoothly and makes good contact.
+        </cmd>
       </step>
       <step>
-        <cmd>Verify solid solder connection by tugging on the wires slightly.</cmd>
+        <cmd>
+          Verify solid solder connection by tugging on the wires slightly.
+        </cmd>
       </step>
     </steps>
     <result>
-      <p>If sound is restored, the problem was cold solder joints.</p>
+      <p>
+        If sound is restored, the problem was cold solder joints.
+      </p>
     </result>
   </taskbody>
 </task>
