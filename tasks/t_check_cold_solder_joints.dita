@@ -2,18 +2,29 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_cold_solder_joints">
   <title>Check for Cold Solder Joints</title>
-  <shortdesc>Solder didn't fully bond to the lug or casing (dull, grainy, or blobbed look).</shortdesc>
+  <shortdesc>Cold solder joints appear dull, grainy, or blobbed and cause intermittent or no signal.</shortdesc>
   <taskbody>
+    <prereq><p>You need a soldering iron heated to 650-700°F.</p></prereq>
+    <context>
+      <p>Cold solder joints occur when solder fails to bond properly to the wire and lug. These weak connections cause signal problems.</p>
+    </context>
     <steps>
       <step>
-        <cmd>Reheat the joint until the solder flows smoothly and makes good contact.</cmd>
+        <cmd>Inspect all solder joints for dull, grainy, or blob-like appearance.</cmd>
+        <stepresult>Cold joints look dull gray instead of shiny silver and may have visible gaps or cracks.</stepresult>
       </step>
       <step>
-        <cmd>Verify solid solder connection by tugging on the wires slightly.</cmd>
+        <cmd>Reheat each cold joint until the solder melts completely and flows around 
+       both the wire and lug.</cmd>
+       <stepresult>Properly reflowed solder appears shiny and smooth with no gaps.</stepresult>
+      </step>
+      <step>
+        <cmd>Gently pull each wire to verify the solder connection holds firmly.</cmd>
+        <stepresult>The wire should not move or detach from the lug.</stepresult>
       </step>
     </steps>
     <result>
-      <p>If sound is restored, the problem was cold solder joints.</p>
+      <p>If sound is restored after reheating, cold solder joints caused the problem.</p>
     </result>
   </taskbody>
 </task>
