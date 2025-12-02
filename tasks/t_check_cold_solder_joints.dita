@@ -2,9 +2,13 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_cold_solder_joints">
   <title>Fix for Cold Solder Joints</title>
-  <shortdesc>Identify weak solder connections and reheat them to restore signal continuity.</shortdesc>
+  <shortdesc>
+    Identify weak solder connections and reheat them to restore signal continuity.
+  </shortdesc>
   <taskbody>
-    <prereq><p>You need a soldering iron heated to 650-700°F.</p></prereq>
+    <prereq>
+      <p>You need a soldering iron heated to 650-700°F.</p>
+    </prereq>
     <context>
       <p>Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.</p>
     </context>
