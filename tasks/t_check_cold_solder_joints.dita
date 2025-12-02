@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_check_cold_solder_joints">
-  <title>Check for Cold Solder Joints</title>
-  <shortdesc>Cold solder joints appear dull, grainy, or blobbed and cause intermittent or no signal.</shortdesc>
+<task id="t_fix_cold_solder_joints">
+  <title>Fix for Cold Solder Joints</title>
+  <shortdesc>Identify weak solder connections and reheat them to restore signal continuity.</shortdesc>
   <taskbody>
     <prereq><p>You need a soldering iron heated to 650-700°F.</p></prereq>
     <context>
-      <p>Cold solder joints occur when solder fails to bond properly to the wire and lug. These weak connections cause signal problems.</p>
+      <p>Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.</p>
     </context>
     <steps>
       <step>
