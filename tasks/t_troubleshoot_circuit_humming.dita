@@ -2,30 +2,48 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_troubleshoot_circuit_humming">
   <title>Troubleshoot Circuit Humming</title>
-  <shortdesc>Follow each problem-solution in order to rule out each one.</shortdesc>
+  <shortdesc>
+    Follow each problem-solution in order to rule out each one.
+  </shortdesc>
   <taskbody>
     <steps>
       <step>
-        <cmd>Check for pot grounding issue.</cmd>
-        <info>This could also be caused by cold solder joints with the grounding wires.</info>
+        <cmd>
+          Check for pot grounding issue.
+        </cmd>
+        <info>
+          This could also be caused by cold solder joints with the grounding wires.
+        </info>
         <substeps audience="novice">
           <substep>
-            <cmd>Double check all solder points for grounding wires (dull, grainy, or blobbed look).</cmd>
+            <cmd>
+              Double check all solder points for grounding wires (dull, grainy, or blobbed look).
+            </cmd>
           </substep>
           <substep>
-            <cmd>Re-solder as needed.</cmd>
+            <cmd>
+              Re-solder as needed.
+            </cmd>
           </substep>
         </substeps>
       </step>
       <step>
-        <cmd>Check for bridge grounding issue.</cmd>
-        <info>Bridge ground is either missing or the solder point is cold.</info>
+        <cmd>
+          Check for bridge grounding issue.
+        </cmd>
+        <info>
+          Bridge ground is either missing or the solder point is cold.
+        </info>
         <substeps audience="novice">
           <substep>
-            <cmd>Ensure the bridge ground wire is soldered to the back of the volume pot casing.</cmd>
+            <cmd>
+              Ensure the bridge ground wire is soldered to the back of the volume pot casing.
+            </cmd>
           </substep>
           <substep>
-            <cmd>Check for any debris between the bridge ground wire and the bridge.</cmd>
+            <cmd>
+              Check for any debris between the bridge ground wire and the bridge
+            </cmd>
           </substep>
         </substeps>
       </step>

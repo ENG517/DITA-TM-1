@@ -6,14 +6,15 @@
     Wiring components are used to wire pickup circuits in various configurations in electric guitars.
   </shortdesc>
   <refbody>
-
     <!-- Section on potentiometers -->
     <section>
       <title>Potentiometers</title>
       <image
-              href="../assets/images/potentiometer-diagram.png"
-              alt="Potentiometer diagram"></image>
-      <p>A potentiometer (often referred to as a pot) is a type of rotating resistor that will control your guitar's tone and volume. They are what you will be soldering on, so it's important to get acquainted with their parts.
+            href="../assets/images/potentiometer-diagram.png"
+            alt="Potentiometer diagram"
+            width="420px"></image>
+      <p>
+        A potentiometer (often referred to as a pot) is a type of rotating resistor that will control your guitar's tone and volume. They are what you will be soldering on, so it's important to get acquainted with their parts.
         <ul>
           <li>
             <b>Lug 2:</b> Connected to the carbon track, lug 2 is a type of resistant wiper (think windshield) that controls the amount of electrical current diverted to the outer lugs (Lugs 1 and 3). Turning the knob left will divert the current to lug 1 while turning the knob right will divert the current to lug 3.
@@ -24,7 +25,6 @@
         </ul>
       </p>
     </section>
-
     <!-- Section on hot wires and ground wires -->
     <section>
       <title>Hot Wires and Ground Wires</title>
@@ -32,7 +32,6 @@
         In guitar wiring, there are two types of wires: hot wires and ground wires. Hot wires carry the electrical signal from the pickups to the output jack, while ground wires provide a return path for the electrical current and help reduce noise and interference.
       </p>
     </section>
-
     <!-- Section on skills -->
     <section>
       <title>Skills</title>
@@ -40,6 +39,5 @@
         When working with wiring components, it's essential to have basic soldering skills. This includes knowing how to heat the soldering iron and apply solder to the joint. Practice on spare wires before working on your guitar to ensure clean and secure connections. 
       </p>
     </section>
-
   </refbody>
 </reference>
