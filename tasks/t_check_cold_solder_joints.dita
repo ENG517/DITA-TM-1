@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_check_cold_solder_joints">
-  <title>Check for Cold Solder Joints</title>
+  <title>Fix for Cold Solder Joints</title>
   <shortdesc>
-    Solder didn't fully bond to the lug or casing (dull, grainy, or blobbed look).
+    Identify weak solder connections and reheat them to restore signal continuity.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>You need a soldering iron heated to 650-700°F.</p>
+    </prereq>
+    <context>
+      <p>Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.</p>
+    </context>
     <steps>
       <step>
-        <cmd>
-          Reheat the joint until the solder flows smoothly and makes good contact.
-        </cmd>
+        <cmd>Inspect all solder joints for signs of poor bonding</cmd>
+        <info>Look for these indicators of cold joints:
+          <ul>
+            <li>Dull gray appearance instead of shiny silver</li>
+            <li>Grainy or crystalline texture</li>
+            <li>Blob-like formations with visible gaps</li>
+            <li>Cracks around the connection</li>
+          </ul>
+        </info>
+        <stepresult>Cold joints look distinctly different from properly flowed solder.</stepresult>
       </step>
       <step>
-        <cmd>
-          Verify solid solder connection by tugging on the wires slightly.
-        </cmd>
+        <cmd>Reheat each cold joint until the solder melts completely and flows around 
+       both the wire and lug.</cmd>
+       <stepresult>Properly reflowed solder appears shiny and smooth with no gaps.</stepresult>
+      </step>
+      <step>
+        <cmd>Gently pull each wire to verify the solder connection holds firmly.</cmd>
+        <stepresult>The wire should not move or detach from the lug.</stepresult>
       </step>
     </steps>
     <result>
-      <p>
-        If sound is restored, the problem was cold solder joints.
-      </p>
+      <p>If sound is restored after reheating, cold solder joints caused the problem.</p>
     </result>
   </taskbody>
 </task>
