@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_fix_cold_solder_joints">
+<task id="t_check_cold_solder_joints">
   <title>Fix for Cold Solder Joints</title>
   <shortdesc>Identify weak solder connections and reheat them to restore signal continuity.</shortdesc>
   <taskbody>
@@ -10,8 +10,16 @@
     </context>
     <steps>
       <step>
-        <cmd>Inspect all solder joints for dull, grainy, or blob-like appearance.</cmd>
-        <stepresult>Cold joints look dull gray instead of shiny silver and may have visible gaps or cracks.</stepresult>
+        <cmd>Inspect all solder joints for signs of poor bonding</cmd>
+        <info>Look for these indicators of cold joints:
+          <ul>
+            <li>Dull gray appearance instead of shiny silver</li>
+            <li>Grainy or crystalline texture</li>
+            <li>Blob-like formations with visible gaps</li>
+            <li>Cracks around the connection</li>
+          </ul>
+        </info>
+        <stepresult>Cold joints look distinctly different from properly flowed solder.</stepresult>
       </step>
       <step>
         <cmd>Reheat each cold joint until the solder melts completely and flows around 
