@@ -1,0 +1,38 @@
+#############
+# COLORS
+#############
+
+colors:
+  primary: 
+    main: '#003049' # Dark Blue
+    s1: '#e1f5fe' 
+    s2: '#b3e5fc'
+    s3: '#4fc3f7'
+    s4: '#0288d1'
+    s5: '#669BBC'
+  secondary: 
+    main: '#780000' # Dark Red
+    s1: '#ffdde0'
+    s2: '#ffcdd2'
+    s3: '#ef9a9a'
+    s4: '#d32f2f'
+    s5: '#c1121f'
+  accent:
+    main: '#ffcb45' # Goldenrod
+    s1: '#f9f1dc'
+    s2: '#f4dea7'
+    s3: '#f2cb69'
+    s4: '#f0bb34'
+    s5: '#e4a80b'
+  neutrals:
+    main: '#FDF0D5'
+    s1: '#fff9eb'
+    s2: '#f5efe0'
+    s3: '#e3ded1'
+    s4: '#c6c3bd'
+    s5: '#a9a9a8'
+    s6: '#878787'
+    s7: '#5e5e5e'
+    s8: '#000000'
+
+
