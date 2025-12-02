@@ -7,15 +7,22 @@
   </shortdesc>
   <taskbody>
     <prereq>
-      <p>You need a soldering iron heated to 650-700°F.</p>
+      <p>
+        You need a soldering iron heated to 650-700°F.
+      </p>
     </prereq>
     <context>
-      <p>Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.</p>
+      <p>
+        Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.
+      </p>
     </context>
     <steps>
       <step>
-        <cmd>Inspect all solder joints for signs of poor bonding</cmd>
-        <info>Look for these indicators of cold joints:
+        <cmd>
+          Inspect all solder joints for signs of poor bonding.
+        </cmd>
+        <info>
+          Look for these indicators of cold joints:
           <ul>
             <li>Dull gray appearance instead of shiny silver</li>
             <li>Grainy or crystalline texture</li>
@@ -23,20 +30,31 @@
             <li>Cracks around the connection</li>
           </ul>
         </info>
-        <stepresult>Cold joints look distinctly different from properly flowed solder.</stepresult>
+        <stepresult>
+          Cold joints look distinctly different from properly flowed solder.
+        </stepresult>
       </step>
       <step>
-        <cmd>Reheat each cold joint until the solder melts completely and flows around 
-       both the wire and lug.</cmd>
-       <stepresult>Properly reflowed solder appears shiny and smooth with no gaps.</stepresult>
+        <cmd>
+          Reheat each cold joint until the solder melts completely and flows around both the wire and lug.
+        </cmd>
+        <stepresult>
+          Properly reflowed solder appears shiny and smooth with no gaps.
+        </stepresult>
       </step>
       <step>
-        <cmd>Gently pull each wire to verify the solder connection holds firmly.</cmd>
-        <stepresult>The wire should not move or detach from the lug.</stepresult>
+        <cmd>
+          Gently pull each wire to verify the solder connection holds firmly.
+        </cmd>
+        <stepresult>
+          The wire should not move or detach from the lug.
+        </stepresult>
       </step>
     </steps>
     <result>
-      <p>If sound is restored after reheating, cold solder joints caused the problem.</p>
+      <p>
+        If sound is restored after reheating, cold solder joints caused the problem.
+      </p>
     </result>
   </taskbody>
 </task>
