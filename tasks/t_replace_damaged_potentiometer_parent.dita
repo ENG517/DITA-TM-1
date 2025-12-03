@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_replace_damaged_potentiometer">
-  <title>Replace Damaged or Faulty Potentiometer</title>
+  <title>Replace Damaged Potentiometer</title>
   <shortdesc>
-    If none of the other solutions fix the problem, you have likely fried the carbon track
-    on one or both of the pots. The only solution is to replace the pot(s).
+    Install a new potentiometer to replace one with a damaged carbon track that prevents proper signal control.
   </shortdesc>
   <taskbody>
+    <context>
+      <p>
+        If other troubleshooting steps have not resolved the problem, the potentiometer's carbon track may be damaged. Replace the faulty potentiometer to restore proper volume or tone control.
+      </p>
+    </context>
+    <steps>
+      <step>
+        <cmd>
+          Remove the damaged potentiometer.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Install the new potentiometer.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Solder all connections to the new potentiometer.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Test the circuit.
+        </cmd>
+      </step>
+    </steps>
     <result>
       <p>
-        If sound is restored, the problem was a damaged or faulty potentiometer.
+        The new potentiometer now controls volume or tone properly.
       </p>
     </result>
   </taskbody>

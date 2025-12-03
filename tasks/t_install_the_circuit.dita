@@ -1,46 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_install_circuit">
-  <title>Install the Circuit</title>
+  <title>Install the Circuit into the Guitar Body</title>
   <shortdesc>
-    If everything checks out with the circuit test, you can go ahead and install the parts
-    into the body of the guitar.
+    Mount the tested circuit components into the guitar body and reconnect the pickup and output jack.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need a soldering iron heated to 650-700°F, a screwdriver, and a successfully tested circuit.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        After you confirm your circuit works correctly, install the components into the guitar body. Temporarily disconnect the pickup and output jack, mount all components, and reconnect them.
+      </p>
+    </context>
     <steps>
       <step>
         <cmd>
-          Disconnect necessary components.
+          Desolder the pickup and output jack from the circuit.
         </cmd>
         <substeps audience="novice">
           <substep>
             <cmd>
-              De-solder the humbucker entirely.
+              Desolder the pickup wires from the volume potentiometer.
             </cmd>
           </substep>
           <substep>
             <cmd>
-              De-solder the output jack entirely. Disconnect the wires from the output jack
-              itself rather than the volume pot.
+              Desolder the wires from the output jack.
             </cmd>
+            <info>
+              Disconnect at the output jack itself, not at the volume potentiometer.
+            </info>
           </substep>
         </substeps>
       </step>
       <step>
         <cmd>
-          Place the components into the body.
+          Mount the components in the guitar body.
         </cmd>
         <substeps audience="novice">
           <substep>
             <cmd>
-              Screw the humbucker into its slot in the body and run the wires into the
-              electronics cavity.
+              Screw the pickup into its slot and route the wires into the electronics cavity.
             </cmd>
           </substep>
           <substep>
             <cmd>
-              With the rest of the circuit stil intact, fasten the pots into their slots in the
-              electronics cavity.
+              Insert the potentiometers into their mounting holes in the electronics cavity and tighten the mounting nuts.
             </cmd>
           </substep>
           <substep>
@@ -50,25 +59,25 @@
           </substep>
           <substep>
             <cmd>
-              Run the wires that were connected to the output jack through to the output jack
-              slot in the body.
+              Route the output jack wires through the output jack hole in the body.
             </cmd>
           </substep>
         </substeps>
       </step>
       <step>
         <cmd>
-          Reconnect the disconnected components.
+          Reconnect the pickup and output jack.
         </cmd>
+        <!-- check from this part -->
         <substeps audience="novice">
           <substep>
             <cmd>
-              Re-solder the humbucker wires to the volume pot.
+              Solder the pickup wires to the volume potentiometer.
             </cmd>
           </substep>
           <substep>
             <cmd>
-              Re-solder the output jack wires to the output jack.
+              Solder the wires to the output jack.
             </cmd>
           </substep>
         </substeps>
@@ -117,5 +126,10 @@
         </substeps>
       </step>
     </steps>
+    <result>
+      <p>
+        Your circuit is now installed in the guitar body with all connections properly grounded.
+      </p>
+    </result>
   </taskbody>
 </task>

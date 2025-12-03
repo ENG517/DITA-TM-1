@@ -3,50 +3,73 @@
 <task id="t_troubleshoot_circuit_humming">
   <title>Troubleshoot Circuit Humming</title>
   <shortdesc>
-    Follow each problem-solution in order to rule out each one.
+    Identify and fix grounding issues that cause a continuous humming noise in your guitar's output.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need a soldering iron heated to 650-700°F and desoldering wick or pump.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        A continuous humming noise indicates a grounding problem. Check each potential grounding issue in order until the humming stops.
+      </p>
+    </context>
     <steps>
       <step>
         <cmd>
-          Check for pot grounding issue.
+          Check the potentiometer grounding connections.
         </cmd>
-        <info>
-          This could also be caused by cold solder joints with the grounding wires.
-        </info>
         <substeps audience="novice">
           <substep>
             <cmd>
-              Double check all solder points for grounding wires (dull, grainy, or blobbed look).
+              Inspect all solder joints on grounding wires for cold solder joints.
             </cmd>
+            <info>
+              Cold solder joints appear dull, grainy, or blobbed.
+            </info>
           </substep>
           <substep>
             <cmd>
-              Re-solder as needed.
+              Reheat any cold solder joints.
             </cmd>
+            <stepresult>
+              The humming should stop if this was the cause.
+            </stepresult>
           </substep>
         </substeps>
       </step>
       <step>
         <cmd>
-          Check for bridge grounding issue.
+          Check the bridge ground connection.
         </cmd>
-        <info>
-          Bridge ground is either missing or the solder point is cold.
-        </info>
         <substeps audience="novice">
           <substep>
             <cmd>
-              Ensure the bridge ground wire is soldered to the back of the volume pot casing.
+              Verify the bridge ground wire is soldered to the back of the volume pot casing.
             </cmd>
           </substep>
           <substep>
             <cmd>
-              Check for any debris between the bridge ground wire and the bridge
+              Inspect the connection point between the bridge ground wire and the bridge for debris or corrosion.
             </cmd>
+          </substep>
+          <substep>
+            <cmd>
+              Clean any debris or resolder the connection if the solder joint is cold.
+            </cmd>
+            <stepresult>
+              The humming should stop if this was the cause.
+            </stepresult>
           </substep>
         </substeps>
       </step>
     </steps>
+    <result>
+      <p>
+        The humming noise is eliminated once you fix the grounding issue.
+      </p>
+    </result>
   </taskbody>
 </task>
