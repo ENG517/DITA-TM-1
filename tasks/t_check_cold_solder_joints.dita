@@ -11,11 +11,6 @@
         You need a soldering iron heated to 650-700°F.
       </p>
     </prereq>
-    <context>
-      <p>
-        Cold solder joints create weak connections that cause intermittent or complete signal loss. You can identify these faulty joints by their appearance and fix them by reheating.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

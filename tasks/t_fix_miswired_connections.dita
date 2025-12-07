@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_fix_miswired_connections">
-  <title>Miswired Connections</title>
+  <title>Fix Miswired Connections</title>
   <shortdesc>
-    Hot wire may be accidentally soldered to ground, or lugs may be mixed up on the pots or jack.
+    Identify and correct wiring errors by comparing your guitar's connections to a wiring diagram.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need your guitar's wiring diagram and a soldering iron heated to 650-700°F.
+      </p>
+    </prereq>
+    <context>
+      <p>
+        Miswired connections cause complete signal loss or incorrect tone control operation. Common wiring errors include hot wires connected to ground and reversed lug connections on potentiometers or output jacks.
+      </p>
+    </context>
     <steps>
       <step>
         <cmd>
-          Double-check wiring against the diagram.
+          Compare each connection in your guitar to the wiring diagram to identify any mismatched wires or reversed lugs.
         </cmd>
+        <stepresult>
+          Incorrect connections show wires attached to different terminals than shown in the diagram.
+        </stepresult>
       </step>
       <step>
         <cmd>
-          Re-route any misplaced wires.
+          Desolder and re-route any wires connected to incorrect locations.
         </cmd>
       </step>
     </steps>
     <result>
-      If sound is restored, the problem was miswired connections.
+      If sound is restored after correcting the wiring, miswired connections caused the problem.
     </result>
   </taskbody>
 </task>

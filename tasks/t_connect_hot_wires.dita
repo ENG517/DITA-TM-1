@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_connect_hot_wires">
+  <title>Connect Signal Wires</title>
+  <shortdesc> Connect the red signal wires to link the volume potentiometer, tone potentiometer, and output jack. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Twist the stripped ends of both red wires together, leaving the other ends separate.</cmd>
+      </step>
+      <step>
+        <cmd>Solder the red wire connections.</cmd>
+        <info audience="expert">
+          <p>
+            Consult the diagram below for wire placement.
+          </p>
+        </info>
+        <substeps audience="novice">
+          <substep>
+            <cmd>older the twisted end to lug 2 of the volume potentiometer.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder one separate end to lug 1 of the tone potentiometer.</cmd>
+          </substep>
+          <substep>
+            <cmd>Solder the other separate end to the tip lug of the output jack.</cmd>
+            <info>The tip lug is the smallest terminal on the outer edge of the output jack.</info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Verify all three connections are secure.
+        </cmd>
+        <info>
+          <image href="../assets/images/lug2-wire.png" alt="Volume potentiometer showing red wire connections at lug 2" width="420px"></image>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>The signal path is now complete from the volume potentiometer to both the tone potentiometer and output jack.</p>
+    </result>
+  </taskbody>
+</task>

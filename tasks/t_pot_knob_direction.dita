@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_pot_knob_direction">
-  <title>Reversed Lug Connections</title>
+  <title>Fix Reversed Lug Connections</title>
   <shortdesc>
-    Fix a pot knob that turns in the opposite direction by reversing the outer lug connections.
+    Correct a potentiometer that operates backwards by swapping the outer lug connections.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need a soldering iron heated to 650-700°F and desoldering wick or pump.
+      </p>
+    </prereq>
     <context>
       <p>
-        This is the most common error when wiring guitar circuits and happens when you solder the outer lugs backwards, such as soldering the humbucker hot wire to Lug 1 and grounding Lug 3 on the volume pot instead of the other way around.
+        Reversed lug connections are a common wiring error that cause the potentiometer to work backwards. This happens when you solder the outer lugs in the wrong order. For example, connecting the hot wire to lug 1 and ground to lug 3 on a volume pot causes the volume to increase when you turn the knob counterclockwise instead of clockwise.
       </p>
     </context>
     <steps>
       <step>
         <cmd>
-          De-solder the outer lugs of the affected pot(s).
+          Desolder the wires from both outer lugs of the affected potentiometer.
         </cmd>
+        <info>
+          Leave the center lug connection in place.
+        </info>
       </step>
       <step>
         <cmd>
-          Re-solder the outer lugs in reverse order.
+          Solder the wires to the opposite outer lugs.
         </cmd>
+        <info>The wire that was on lug 1 now connects to lug 3, and the wire that was on lug 3 now connects to lug 1.</info>
+      </step>
+      <step>
+        <cmd>
+          Test the potentiometer by turning the knob clockwise.
+        </cmd>
+        <stepresult>
+          Volume or tone should increase as you turn the knob clockwise.
+        </stepresult>
       </step>
     </steps>
     <result>
       <p>
-        The pot knob now turns in the correct direction.
+        The volume or tone now increases when you turn the knob clockwise.
       </p>
     </result>
   </taskbody>

@@ -4,7 +4,7 @@ This repo contains a DITA topic model (TM) for wiring a single-humbucker setup. 
 
 ## Authors
 
-- Nazifa Chowdury
+- Nazifa Chowdhury
 - Bradon Hassell
 - Jacob Knight
 

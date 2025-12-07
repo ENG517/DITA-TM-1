@@ -3,14 +3,9 @@
 <task id="t_troubleshoot_weak_no_sound_parent">
   <title>Troubleshoot Weak or No Sound Coming from the Circuit</title>
   <shortdesc>
-    Follow each problem-solution in order to rule out each one.
+    Systematically identify and fix the cause of weak or no sound by checking each potential wiring problem in order.
   </shortdesc>
   <taskbody>
-    <context>
-      <p>
-        If your guitar circuit produces weak or no sound, work through each potential cause in the order listed below until the problem is resolved.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>
@@ -19,33 +14,33 @@
       </step>
       <step>
         <cmd>
-          If the problem persists, check for miswired connections.
+          Check for miswired connections.
         </cmd>
       </step>
       <step>
         <cmd>
-          If the problem persists, check for cold solder joints.
+          Check for cold solder joints.
         </cmd>
       </step>
       <step>
         <cmd>
-          If the problem persists, check for shorts between hot and ground.
+          Check for shorts between hot and ground.
         </cmd>
       </step>
       <step>
         <cmd>
-          If the problem persists, verify the pickup is properly grounded and connected.
+          Verify the pickup is properly grounded and connected.
         </cmd>
       </step>
       <step>
         <cmd>
-          If none of the previous steps resolve the problem, replace the damaged potentiometer.
+          Replace the damaged potentiometer.
         </cmd>
       </step>
     </steps>
     <result>
       <p>
-        By systematically working through these troubleshooting steps, you will identify and resolve the cause of weak or no sound in your guitar circuit.
+        You have identified and resolved the cause of weak or no sound.
       </p>
     </result>
   </taskbody>

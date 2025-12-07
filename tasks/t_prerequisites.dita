@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task audience="novice" id="t_prerequisites">
-  <title>Wiring Prerequisites</title>
+<!-- Check the task audience too -->
+<task id="t_prerequisites">
+  <title>Prepare for Guitar Wiring</title>
   <shortdesc>
-    Prepare to wire a simple single-humbucker circuit in an electric guitar.
+    Collect all necessary components and tools before beginning your guitar wiring project.
   </shortdesc>
   <taskbody>
-    <prereq>
-      You will need the following materials before starting the wiring process:
-      <ul>
-        <li>Soldering iron between 40W and 80W</li>
-        <li>Solder</li>
-        <li>Wire stripper</li>
-        <li>Electrical tape</li>
-        <li>Screwdriver set</li>
-        <li>Permanent marker</li>
-        <li>Two Split Shaft 500k potentiometers</li>
-        <li>Potentiometer knobs
-          <note type="note">
-            They must be compatible with Split Shaft knobs.
-          </note>
-        </li>
-        <li>0.022µF tone capacitor</li>
-        <li>Mono output jack</li>
-        <li>Humbucker</li>
-        <li>Spool of solid core copper wire</li>
-      </ul>
-    </prereq>
+    <steps>
+      <step>
+        <cmd>
+          Gather the following tools:
+        </cmd>
+        <info>
+          <ul>
+            <li></li>
+            <li>Soldering iron (40W-80W, heated to 650-700°F)</li>
+            <li>Solder</li>
+            <li>Wire stripper</li>
+            <li>Electrical tape</li>
+            <li>Screwdriver set</li>
+            <li>Permanent marker</li>
+            <li>Two Split Shaft 500k potentiometers</li>
+            <li>Potentiometer knobs
+              <note type="note">
+                They must be compatible with Split Shaft knobs.
+              </note>
+            </li>
+            <li>0.022µF tone capacitor</li>
+            <li>Mono output jack</li>
+            <li>Humbucker</li>
+            <li>Spool of solid core copper wire</li>
+          </ul>
+        </info>
+      </step>
+    </steps>
+    <result>
+      <p>
+        You have all necessary materials and tools to begin wiring.
+      </p>
+    </result>
   </taskbody>
 </task>

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_test_faulty_humbucker_output_jack">
-  <title>Test for Faulty Humbucker or Output Jack</title>
+  <title>Identify Faulty Humbucker or Output Jack</title>
   <shortdesc>
-    There's a problem with the pickup itself or the output jack.
+    Determine whether a faulty humbucker or output jack is causing signal loss by testing them in isolation.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>You need a soldering iron heated to 650-700°F, desoldering wick or pump, and a spare humbucker for testing.</p>
+    </prereq>
     <steps>
       <step>
         <cmd>
-          De-solder the humbucker.
+          Desolder the humbucker from the potentiometers.
         </cmd>
       </step>
       <step>
@@ -19,26 +22,41 @@
       </step>
       <step>
         <cmd>
-          Re-solder the humbucker directly to the output jack.
+          Solder the humbucker directly to the output jack.
         </cmd>
-        <info audience="novice">
+        <info>
           <ul>
-            <li>Hot wire to the Tip Lug.</li>
-            <li>Ground wire to the Sleeve Lug.</li>
+            <li>Hot wire connects to the tip Lug.</li>
+            <li>Ground wire connects to the sleeve Lug.</li>
           </ul>
         </info>
+      </step>
+      <step>
+        <cmd>
+          Plug in your guitar and test for sound.
+        </cmd>
         <stepresult>
-          If the circuit produces sound with a direct connection, it's a problem with the pots.
+          If the guitar produces sound, the potentiometers are faulty. If no sound, continue to the next step.
         </stepresult>
       </step>
       <step>
         <cmd>
-          If the problem persists after soldering a direct connection, solder a different humbucker to the output jack.
+          Desolder the original humbucker and solder a different humbucker to the output jack.
+        </cmd>
+      </step>
+      <step>
+        <cmd>
+          Test for sound again.
         </cmd>
         <stepresult>
-          If the circuit produces sound, it's a faulty humbucker. If the problem persists, it's a faulty output jack and you need to replace it.
+          If the guitar produces sound, the original humbucker is faulty. If no sound, the output jack is faulty.
         </stepresult>
       </step>
     </steps>
+    <result>
+      <p>
+        You have identified which component needs repair or replacement.
+      </p>
+    </result>
   </taskbody>
 </task>

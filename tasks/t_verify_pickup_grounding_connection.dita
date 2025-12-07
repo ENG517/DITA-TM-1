@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_verify_pickup_grounding_connection">
-  <title>Verify Pickup is Properly Grounded and Connected</title>
+  <title>Verify Pickup Grounding and Connection</title>
   <shortdesc>
-    Wrong color wires used for hot/ground, or coil leads not joined correctly.
+    Confirm that pickup wires are correctly connected according to the manufacturer's wiring code.
   </shortdesc>
   <taskbody>
+    <prereq>
+      <p>
+        You need the manufacturer's wiring diagram for your specific pickup model.
+      </p>
+    </prereq>
     <steps>
       <step>
         <cmd>
-          Check manufacturer's wiring code.
+          Compare your pickup wiring to the manufacturer's wiring diagram.
         </cmd>
+        <info>
+          Verify that hot and ground wires match the color codes shown in the diagram.
+        </info>
       </step>
       <step>
         <cmd>
-          Verify that the series link wires are joined properly and insulated with electrical tape.
+          Inspect the series link wires to ensure they are properly joined and insulated with electrical tape.
         </cmd>
         <info>
-          These are the wires you soldered together to create the series connection.
+          Series link wires are the coil leads you soldered together to create the series connection.
         </info>
+      </step>
+      <step>
+        <cmd>
+          Resolder any incorrect connections.
+        </cmd>
       </step>
     </steps>
     <result>
       <p>
-        If sound is restored, the problem was improper pickup grounding or connection.
+        The pickup is now properly grounded and connected.
       </p>
     </result>
   </taskbody>

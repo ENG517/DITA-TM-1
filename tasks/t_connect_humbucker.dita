@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_connect_humbucker">
+  <title>Connect Pickup to Volume Potentiometer</title>
+  <shortdesc> Solder the pickup wires to the volume potentiometer to send the audio signal into the circuit. 
+  </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Solder the black hot wire to lug 3 of the volume potentiometer.</cmd>
+      </step>
+      <step>
+        <cmd>Solder the ground wire to the back of the volume potentiometer casing.</cmd>
+        <info>The ground wire is white for 2-conductor pickups, or yellow or green for 4-conductor pickups.</info>
+      </step>
+      <step>
+        <cmd>Verify both connections are secure.</cmd>
+        <info>
+          <image href="../assets/images/humbucker-wire.png" alt="Pickup wires connected to volume potentiometer" width="420px"></image>
+        </info>
+      </step>
+    </steps>
+  </taskbody>
+</task>

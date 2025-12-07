@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_test_circuit">
+  <title>Test the Circuit</title>
+  <shortdesc>Verify your wired circuit produces sound and responds to volume control before installing it in the guitar body.
+  </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Connect the circuit to an amplifier.</cmd>
+        <substeps audience="novice">
+          <substep>
+            <cmd>Plug a 1/4 inch cable from the output jack to the amplifier input.</cmd>
+          </substep>
+          <substep>
+            <cmd>Turn on the amplifier and set the volume to maximum.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Test the pickup for sound output.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Turn the volume potentiometer knob fully clockwise.</cmd>
+          </substep>
+          <substep audience="expert">
+            <cmd>Tap a screwdriver on the pickup to test if sound is coming through.</cmd>
+          </substep>
+          <substep audience="novice">
+            <cmd>Play music from your phone or music player and hold the speaker against the pickup.</cmd>
+            <stepresult>You should hear the music playing through the amplifier.</stepresult>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Test the volume control.</cmd>
+        <substeps audience="novice">
+          <substep>
+            <cmd>Continue playing music against the pickup.</cmd>
+          </substep>
+          <substep>
+            <cmd>Turn the volume potentiometer knob counterclockwise.</cmd>
+            <stepresult>The sound should decrease as you turn the knob and become silent when fully counterclockwise.
+            </stepresult>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>If the circuit does not produce sound or the volume does not change, refer to the troubleshooting guide.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p>Your circuit is functioning correctly and ready for installation.
+      </p>
+    </result>
+  </taskbody>
+</task>
