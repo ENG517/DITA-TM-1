@@ -2,41 +2,36 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ground_circuit">
   <title>Ground the Circuit</title>
-  <shortdesc> Soldering the ground wires to the pots and output jack.</shortdesc>
+  <shortdesc> Connect all ground points to eliminate noise and ensure proper signal flow by linking the volume pot lug to its casing, both pot casings together, and the volume casing to the output jack.
+  </shortdesc>
   <taskbody>
     <steps>
       <step>
         <cmd>
-          <ph audience="novice">Solder the fully-stripped 0.5 inch solid core wire from Lug 1 of the
-          volume pot straight back to the volume pot casing.</ph>
-          <ph audience="expert">Bend back Lug
-          1 and and solder it directly to the casing.</ph>
+          <ph audience="novice">Solder the 0.5-inch solid core jumper wire from lug 1 of the volume potentiometer to the back of the volume potentiometer casing.</ph>
+          <ph audience="expert">Bend lug 1 back and solder it directly to the casing.</ph>
         </cmd>
         <stepresult>
-          <image
-              href="../assets/images/lug1-ground.png"
-              alt="Wiring diagram showing the ground connection from Lug 1 of the volume pot to the casing"></image>
+          <image href="../assets/images/lug1-ground.png" alt="Wiring diagram showing the ground connection from Lug 1 of the volume pot to the casing" width="420px"></image>
         </stepresult>
       </step>
       <step>
-        <cmd>Solder a wire between the volume and tone pot casings.</cmd>
-        <info audience="novice"> Use the black wire you cut earlier from the volume pot casing. </info>
+        <cmd>Solder one black wire between the volume and tone potentiometer casings.</cmd>
+        <info audience="novice"> Use one of the black wires you cut earlier. </info>
         <stepresult>
-          <image
-              href="../assets/images/pot-ground.png"
-              alt="Wiring Diagram showing the ground connection between the volume and tone pots"></image>
+          <image href="../assets/images/pot-ground.png" alt="Wiring Diagram showing the ground connection between the volume and tone pots" width="420px"></image>
         </stepresult>
       </step>
       <step>
-        <cmd>Solder the final black wire from the casing of the volume pot to the Sleeve of the
-          output jack.</cmd>
-        <info audience="novice">The Sleeve of the output jack is the larger inner-most lug.</info>
+        <cmd>Solder the remaining black wire from the volume potentiometer casing to the sleeve lug of the output jack.</cmd>
+        <info audience="novice">The sleeve lug is the largest terminal on the inside of the output jack.</info>
         <stepresult>
-          <image
-              href="../assets/images/output-jack-ground.png"
-              alt="Wiring Diagram showing the ground connection between the volume pot casing to the output jack"></image>
+          <image href="../assets/images/output-jack-ground.png" alt="Wiring Diagram showing the ground connection between the volume pot casing to the output jack" width="420px"></image>
         </stepresult>
       </step>
     </steps>
+    <result>
+      <p>The circuit is now fully grounded with all components connected to a common ground reference.</p>
+    </result>
   </taskbody>
 </task>

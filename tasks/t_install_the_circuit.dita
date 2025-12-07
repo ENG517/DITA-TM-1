@@ -68,7 +68,6 @@
         <cmd>
           Reconnect the pickup and output jack.
         </cmd>
-        <!-- check from this part -->
         <substeps audience="novice">
           <substep>
             <cmd>
@@ -82,46 +81,16 @@
           </substep>
         </substeps>
       </step>
-      <step audience="expert">
-        <cmd>
-          Solder the bridge ground wire to the volume pot casing.
-        </cmd>
-        <info>
-          If your guitar does not have a bridge ground wire, you'll need to cut and install one
-          yourself.
-        </info>
-      </step>
-      <step audience="novice">
-        <cmd>
-          While not pictured in the diagram, your guitar body should have a wire running from one
-          of the bridge peg slots into the electronics cavity. Solder the end of that wire (in the
-          electronics cavity) to the volume pot casing.
-        </cmd>
-        <info>
-          If your guitar body does not have this wire, perform the following substeps to create
-          one:
-        </info>
-        <substeps>
+      <step>
+        <cmd>Install the bridge ground wire.</cmd>
+        <info audience="expert">Solder the bridge ground wire to the back of the volume potentiometer casing.</info>
+        <substeps audience="novice">
           <substep>
-            <cmd>
-              Cut and strip the ends off one more black wire, at least 6 inches long.
-            </cmd>
+            <cmd>Locate the bridge ground wire that runs from the bridge area into the electronics cavity.</cmd>
+            <info>If your guitar does not have a bridge ground wire, you need to create one before continuing.</info>
           </substep>
           <substep>
-            <cmd>
-              Run the wire from the electronics cavity into the bridge slot through the small
-              hole in the cavity wall.
-            </cmd>
-          </substep>
-          <substep>
-            <cmd>
-              Fray the end of the wire in the bridge slot and press the frays into the wall.
-            </cmd>
-          </substep>
-          <substep>
-            <cmd>
-              Solder the other end to the volume pot casing.
-            </cmd>
+            <cmd>Solder the bridge ground wire to the back of the volume potentiometer casing.</cmd>
           </substep>
         </substeps>
       </step>

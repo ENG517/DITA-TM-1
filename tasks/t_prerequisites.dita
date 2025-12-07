@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <!-- Check the task audience too -->
-<task audience="novice" id="t_prerequisites">
+<task id="t_prerequisites">
   <title>Prepare for Guitar Wiring</title>
   <shortdesc>
     Collect all necessary components and tools before beginning your guitar wiring project.

@@ -11,11 +11,6 @@
         You need the manufacturer's wiring diagram for your specific pickup model.
       </p>
     </prereq>
-    <context>
-      <p>
-        Incorrect wire colors or improperly joined coil leads can cause weak or no sound. Verify your connections match the manufacturer's specifications.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

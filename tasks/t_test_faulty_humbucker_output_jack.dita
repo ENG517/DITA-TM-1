@@ -9,11 +9,6 @@
     <prereq>
       <p>You need a soldering iron heated to 650-700°F, desoldering wick or pump, and a spare humbucker for testing.</p>
     </prereq>
-    <context>
-      <p>
-        Use this test when your guitar produces no sound after you've verified the wiring connections are correct. This isolation test determines which component is faulty.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>
