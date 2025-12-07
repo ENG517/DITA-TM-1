@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_guitar_wiring_troubleshooting_overview">
-  <title>Guitar Wiring Troubleshooting</title>
+  <title>Guitar Wiring Troubleshooting Overview</title>
   <shortdesc>
-    Common problems encountered when wiring guitar electronics and potential solutions.
+    Understanding common wiring problems helps you diagnose and fix issues systematically when your guitar produces weak or no sound.
   </shortdesc>
   <conbody>
     <p>
-      Follow each problem-solution in order to rule out each one.
+      Guitar wiring problems typically fall into three categories: faulty connections, incorrect wiring, or damaged components. A systematic troubleshooting approach saves time and prevents unnecessary component replacement.
     </p>
     <section>
-      <title>Troubleshooting Approach</title>
+      <title>Systematic Troubleshooting Approach</title>
       <p>
-        Work through each potential cause systematically in
-      the order presented. This methodical approach helps you identify and resolve issues
-      efficiently.
-      </p>
+        Work through potential causes in order from most common to least common. Start with simple checks like solder joint quality before moving to component replacement. This methodical approach identifies problems efficiently without wasting materials.</p>
+
+      <p>Testing after each fix confirms which issue caused the problem and prevents over-correction.</p>
     </section>
   </conbody>
 </concept>
