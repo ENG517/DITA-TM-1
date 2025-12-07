@@ -6,11 +6,6 @@
     Install a new potentiometer to replace one with a damaged carbon track that prevents proper signal control.
   </shortdesc>
   <taskbody>
-    <context>
-      <p>
-        If other troubleshooting steps have not resolved the problem, the potentiometer's carbon track may be damaged. Replace the faulty potentiometer to restore proper volume or tone control.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

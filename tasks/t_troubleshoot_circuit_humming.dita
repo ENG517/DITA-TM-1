@@ -11,11 +11,6 @@
         You need a soldering iron heated to 650-700°F and desoldering wick or pump.
       </p>
     </prereq>
-    <context>
-      <p>
-        A continuous humming noise indicates a grounding problem. Check each potential grounding issue in order until the humming stops.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

@@ -11,11 +11,6 @@
         You need a soldering iron, solder wick or desoldering pump, and wire cutters.
       </p>
     </prereq>
-    <context>
-      <p>
-        Shorts between hot and ground cause complete signal loss. You can identify these shorts by inspecting for accidental contact between hot connections and grounded metal parts.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

@@ -11,11 +11,6 @@
         You need your guitar's wiring diagram and a soldering iron heated to 650-700°F.
       </p>
     </prereq>
-    <context>
-      <p>
-        Miswired connections cause complete signal loss or incorrect tone control operation. Common wiring errors include hot wires connected to ground and reversed lug connections on potentiometers or output jacks.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>

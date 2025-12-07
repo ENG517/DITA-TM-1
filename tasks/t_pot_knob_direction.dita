@@ -11,11 +11,6 @@
         You need a soldering iron heated to 650-700°F and desoldering wick or pump.
       </p>
     </prereq>
-    <context>
-      <p>
-        Reversed lug connections are a common wiring error that cause the potentiometer to work backwards. This happens when you solder the outer lugs in the wrong order. For example, connecting the hot wire to lug 1 and ground to lug 3 on a volume pot causes the volume to increase when you turn the knob counterclockwise instead of clockwise.
-      </p>
-    </context>
     <steps>
       <step>
         <cmd>
