@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_test_circuit">
+  <title>Test the Circuit</title>
+  <shortdesc> How to test the circuit by checking for sound. </shortdesc>
+  <taskbody>
+    <steps>
+      <step>
+        <cmd>Connect to an amp.</cmd>
+        <substeps audience="novice">
+          <substep>
+            <cmd>Plug a 1/4 inch cable from the output jack to an amp.</cmd>
+          </substep>
+          <substep>
+            <cmd>Turn the amp on and crank the volume.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Check for sound.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Turn the knob of the volume pot all the way clockwise.</cmd>
+          </substep>
+          <substep audience="expert">
+            <cmd>Tap a screwdriver on the humbucker to test if sound is coming through</cmd>
+          </substep>
+          <substep audience="novice">
+            <cmd>Using your phone, or any music playing device, play a song and hold the speaker up
+              to the humbucker. You should hear the song playing through the amp.</cmd>
+          </substep>
+          <substep audience="novice">
+            <cmd>With the song still playing against the humbucker, turn the knob of the volume pot
+              counter-clockwise. You should hear the song get quieter as you turn, going completely
+              mute when the knob is turned fully counter-clockwise.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>If the expected outcomes listed in the previous three steps are not met, consult the
+          troubleshooting guide.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>
