@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="intro-guitar-wiring">
-  <title>After Completing the Wiring</title>
+  <title>Completing Your Guitar Wiring Project</title>
   <conbody>
     <p>
-      With the completion of this guide, you have successfully wired a single-humbucker setup with
-      volume and tone control. Plug in your guitar, test each knob, and enjoy your new sound.
+      You have completed a functional single-humbucker guitar circuit with volume and tone controls. Your guitar now converts string vibrations into electrical signals that flow through properly grounded components to your amplifier.
     </p>
-    <p>
-      If you’d like to expand later, this setup also provides a good foundation for adding
-      coil-splitting or installing a second pickup.
-    </p>
+    <section>
+      <title>Maintaining Your Wiring</title>
+      <p>Well-executed guitar wiring requires minimal maintenance. Check solder joints periodically if your guitar experiences heavy use or impacts. Clean potentiometer contacts with contact cleaner if controls become scratchy. Properly wired circuits can last the lifetime of the instrument.</p>
+    </section>
+    
+    <section>
+      <title>Next Steps</title>
+      <p>Your completed single-humbucker circuit can serve as a foundation for future enhancements. Common next steps include adding coil-splitting switches, installing additional pickups, or experimenting with different capacitor values for varied tone responses.</p>
+    </section>
   </conbody>
 </concept>
