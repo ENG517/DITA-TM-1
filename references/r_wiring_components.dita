@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference audience="novice" id="r_wiring_components" xml:lang="en-US">
+<reference id="r_wiring_components" xml:lang="en-US">
   <title>Wiring Components</title>
   <shortdesc>
     Wiring components are used to wire pickup circuits in various configurations in electric guitars.
