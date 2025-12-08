@@ -4,8 +4,10 @@
     id="r_wiring_components"
     xml:lang="en-US">
   <title>Important Details and Warnings for Soldering</title>
-  <shortdesc> When soldering wires to the pot casings, there is a risk of frying the carbon track,
-    which will either break the pot entirely or limit its ability to control volume or tone. </shortdesc>
+  <shortdesc>
+    When soldering wires to the pot casings, there is a risk of frying the carbon track,
+    which will either break the pot entirely or limit its ability to control volume or tone.
+  </shortdesc>
   <refbody>
     <section>
       <title>Steps to Reduce Risk of Heat Damage</title>
