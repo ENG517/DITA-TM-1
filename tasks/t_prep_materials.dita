@@ -18,15 +18,19 @@
     </context>
     <steps>
       <step>
-        <cmd>Identify the pickup hot and ground wires.</cmd>
+        <cmd>
+          Identify the pickup hot and ground wires.
+        </cmd>
         <choices>
-          <choice>If your pickup has two wires (2-conductor):
+          <choice>
+            If your pickup has two wires (2-conductor):
             <ul>
               <li>Black wire is hot</li>
               <li>White wire is ground</li>
             </ul>
           </choice>
-          <choice>If your pickup has four wires (4-conductor):
+          <choice>
+            If your pickup has four wires (4-conductor):
             <ul>
               <li>Black wire is hot</li>
               <li>Yellow or green wire is ground</li>
@@ -71,13 +75,19 @@
         </substeps>
       </step>
       <step>
-        <cmd>Prepare the jumper wire from solid core wire.</cmd>
+        <cmd>
+          Prepare the jumper wire from solid core wire.
+        </cmd>
         <substeps audience="novice">
           <substep>
-            <cmd>Strip 1 inch of insulation from the end of the solid core wire spool.</cmd>
+            <cmd>
+              Strip 1 inch of insulation from the end of the solid core wire spool.
+            </cmd>
           </substep>
           <substep>
-            <cmd>Cut the stripped section in half to create a 0.5-inch bare wire.</cmd>
+            <cmd>
+              Cut the stripped section in half to create a 0.5-inch bare wire.
+            </cmd>
           </substep>
         </substeps>
       </step>
@@ -102,7 +112,9 @@
             </cmd>
           </substep>
         </substeps>
-        <info>Tinning coats the wire with solder, making it easier to create strong solder joints.</info>
+        <info>
+          Tinning coats the wire with solder, making it easier to create strong solder joints.
+        </info>
       </step>
       <step>
         <cmd>

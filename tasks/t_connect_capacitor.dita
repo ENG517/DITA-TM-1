@@ -2,23 +2,33 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_connect_capacitor">
   <title>Connect Capacitor to Tone Potentiometer</title>
-  <shortdesc> Solder the capacitor between the tone potentiometer's center lug and casing to enable tone control. </shortdesc>
+  <shortdesc>
+    Solder the capacitor between the tone potentiometer's center lug and casing to enable tone control.
+  </shortdesc>
   <taskbody>
     <steps>
       <step>
-        <cmd>Solder one capacitor lead to lug 2 of the tone potentiometer.</cmd>
+        <cmd>
+          Solder one capacitor lead to lug 2 of the tone potentiometer.
+        </cmd>
         <info audience="novice">
-          <note type="note"> Either lead can connect to lug 2 because this capacitor is non-polarized. </note>
+          <note type="note"> Either lead can connect to lug 2 because this capacitor is non-polarized.</note>
         </info>
       </step>
       <step>
-        <cmd>Solder the other capacitor lead to the tone potentiometer casing.</cmd>
+        <cmd>
+          Solder the other capacitor lead to the tone potentiometer casing.
+        </cmd>
         <substeps audience="novice">
           <substep>
-            <cmd>Bend the free capacitor lead against the potentiometer casing so it lies flat.</cmd>
+            <cmd>
+              Bend the free capacitor lead against the potentiometer casing so it lies flat.
+            </cmd>
           </substep>
           <substep>
-            <cmd>Solder the bent lead to the back of the casing.</cmd>
+            <cmd>
+              Solder the bent lead to the back of the casing.
+            </cmd>
           </substep>
         </substeps>
       </step>
@@ -34,7 +44,9 @@
       </step>
     </steps>
     <result>
-      <p>The capacitor is now connected to the tone potentiometer.</p>
+      <p>
+        The capacitor is now connected to the tone potentiometer.
+      </p>
     </result>
   </taskbody>
 </task>
