@@ -13,8 +13,9 @@
       <title>Systematic Troubleshooting Approach</title>
       <p>
         Work through potential causes in order from most common to least common. Start with simple checks like solder joint quality before moving to component replacement. This methodical approach identifies problems efficiently without wasting materials.</p>
-
-      <p>Testing after each fix confirms which issue caused the problem and prevents over-correction.</p>
+      <p>
+        Testing after each fix confirms which issue caused the problem and prevents over-correction.
+      </p>
     </section>
   </conbody>
 </concept>

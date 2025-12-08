@@ -2,7 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ground_circuit">
   <title>Ground the Circuit</title>
-  <shortdesc> Connect all ground points to eliminate noise and ensure proper signal flow by linking the volume pot lug to its casing, both pot casings together, and the volume casing to the output jack.
+  <shortdesc>
+    Connect all ground points to eliminate noise and ensure proper signal flow by linking the volume pot lug to its casing, both pot casings together, and the volume casing to the output jack.
   </shortdesc>
   <taskbody>
     <steps>
@@ -16,14 +17,18 @@
         </stepresult>
       </step>
       <step>
-        <cmd>Solder one black wire between the volume and tone potentiometer casings.</cmd>
+        <cmd>
+          Solder one black wire between the volume and tone potentiometer casings.
+        </cmd>
         <info audience="novice"> Use one of the black wires you cut earlier. </info>
         <stepresult>
           <image href="../assets/images/pot-ground.png" alt="Wiring Diagram showing the ground connection between the volume and tone pots" width="420px"></image>
         </stepresult>
       </step>
       <step>
-        <cmd>Solder the remaining black wire from the volume potentiometer casing to the sleeve lug of the output jack.</cmd>
+        <cmd>
+          Solder the remaining black wire from the volume potentiometer casing to the sleeve lug of the output jack.
+        </cmd>
         <info audience="novice">The sleeve lug is the largest terminal on the inside of the output jack.</info>
         <stepresult>
           <image href="../assets/images/output-jack-ground.png" alt="Wiring Diagram showing the ground connection between the volume pot casing to the output jack" width="420px"></image>
@@ -31,7 +36,9 @@
       </step>
     </steps>
     <result>
-      <p>The circuit is now fully grounded with all components connected to a common ground reference.</p>
+      <p>
+        The circuit is now fully grounded with all components connected to a common ground reference.
+      </p>
     </result>
   </taskbody>
 </task>

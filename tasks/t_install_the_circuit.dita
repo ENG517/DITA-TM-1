@@ -82,15 +82,23 @@
         </substeps>
       </step>
       <step>
-        <cmd>Install the bridge ground wire.</cmd>
+        <cmd>
+          Install the bridge ground wire.
+        </cmd>
         <info audience="expert">Solder the bridge ground wire to the back of the volume potentiometer casing.</info>
         <substeps audience="novice">
           <substep>
-            <cmd>Locate the bridge ground wire that runs from the bridge area into the electronics cavity.</cmd>
-            <info>If your guitar does not have a bridge ground wire, you need to create one before continuing.</info>
+            <cmd>
+              Locate the bridge ground wire that runs from the bridge area into the electronics cavity.
+            </cmd>
+            <info>
+              If your guitar does not have a bridge ground wire, you need to create one before continuing.
+            </info>
           </substep>
           <substep>
-            <cmd>Solder the bridge ground wire to the back of the volume potentiometer casing.</cmd>
+            <cmd>
+              Solder the bridge ground wire to the back of the volume potentiometer casing.
+            </cmd>
           </substep>
         </substeps>
       </step>

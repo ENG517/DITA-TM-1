@@ -16,13 +16,19 @@
         </info>
       </step>
       <step>
-        <cmd>Solder the other capacitor lead to the tone potentiometer casing.</cmd>
+        <cmd>
+          Solder the other capacitor lead to the tone potentiometer casing.
+        </cmd>
         <substeps audience="novice">
           <substep>
-            <cmd>Bend the free capacitor lead against the potentiometer casing so it lies flat.</cmd>
+            <cmd>
+              Bend the free capacitor lead against the potentiometer casing so it lies flat.
+            </cmd>
           </substep>
           <substep>
-            <cmd>Solder the bent lead to the back of the casing.</cmd>
+            <cmd>
+              Solder the bent lead to the back of the casing.
+            </cmd>
           </substep>
         </substeps>
       </step>
@@ -38,7 +44,9 @@
       </step>
     </steps>
     <result>
-      <p>The capacitor is now connected to the tone potentiometer.</p>
+      <p>
+        The capacitor is now connected to the tone potentiometer.
+      </p>
     </result>
   </taskbody>
 </task>
