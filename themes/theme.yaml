@@ -40,7 +40,7 @@ colors:
 ########
 fonts:
   families:
-    copy: 'Calibri'
+    copy: 'Calibri, sans-serif'
     headings: 
       h1: 'Archivo Black'
       h2: 'Roboto Condensed, Times New Roman'
