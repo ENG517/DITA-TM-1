@@ -4,21 +4,21 @@
 
 colors:
   primary: 
-    main: '#003049' # Dark Blue
+    main: '#003049'
     s1: '#e1f5fe' 
     s2: '#b3e5fc'
     s3: '#4fc3f7'
     s4: '#0288d1'
-    s5: '#669BBC'
+    s5: '#005687'
   secondary: 
-    main: '#780000' # Dark Red
+    main: '#780000'
     s1: '#ffdde0'
     s2: '#ffcdd2'
     s3: '#ef9a9a'
     s4: '#d32f2f'
     s5: '#c1121f'
   accent:
-    main: '#ffcb45' # Goldenrod
+    main: '#ffcb45'
     s1: '#f9f1dc'
     s2: '#f4dea7'
     s3: '#f2cb69'
@@ -40,15 +40,15 @@ colors:
 ########
 fonts:
   families:
-    copy: 'Public Sans, Arial Unicode MS'
+    copy: 'Calibri'
     headings: 
-      h1: 'Archivo Black, Times New Roman'
-      h2: 'Roboto, Times New Roman'
-      h3: 'Roboto, Times New Roman'
-      h4: 'Roboto, Times New Roman'
-      h5: 'Roboto, Times New Roman'
+      h1: 'Archivo Black'
+      h2: 'Roboto Condensed, Times New Roman'
+      h3: 'Roboto Condensed, Times New Roman'
+      h4: 'Roboto Condensed, Times New Roman'
+      h5: 'Roboto Condensed, Times New Roman'
       h6: 'Archivo, Times New Roman'
-    display: 'Archivo, Monoton'
+    display: 'Archivo Black, Monoton'
     monospaced: 'Fantasque Sans Mono, Courier New, Courier'
   sizing:
     title: 36pt
@@ -64,22 +64,18 @@ fonts:
 
 #############################
 # LINE SPACING
-# 100%-200% of base font size
-# is an acceptable range
-# 72pts per 1 inch
 #############################
 spacing:
   lines:
     xxlarge: 36pt
     xlarge: 28pt
     large: 21pt
-    medium: 18pt # ~14x1.3 as base between paragraphs
-    small: 9pt
-    xsmall: 4pt
+    medium: 16pt
+    small: 12pt
+    xsmall: 9pt
 
 ################
 # PAGE SETTINGS
-# Docs: https://www.dita-ot.org/4.2/resources/theme/page-settings
 ################
 page:
   size: Letter
@@ -88,142 +84,234 @@ page:
 ##################
 # MAIN DOC STYLES
 ##################
-layout:
-  page:
-    background-color: $colors-neutrals-main
+
 style:
-  # New Defaults for Text in Body Elements
   body:
     font-family: $fonts-families-copy
     font-size: $fonts-sizing-copy
+    font-weight: 400
     line-height: $spacing-lines-medium
-  # Cover Page Title
+    margin-bottom: $spacing-lines-medium
+    color: $colors-primary-main
+
   cover-title:
     color: $colors-secondary-main
     font-family: $fonts-families-display
     font-size: $fonts-sizing-title
     font-weight: 900
     font-style: normal
-    # text-transform: uppercase
     letter-spacing: 0.5pt
-  # Heading Styles
+    line-height: $spacing-lines-xxlarge
+    margin-bottom: $spacing-lines-xxlarge
+
   h1:
-    font-family: $fonts-families-headings
+    font-family: $fonts-families-headings-h1
     font-size: $fonts-sizing-h1
     color: $colors-primary-main
     border-after: solid 1pt $colors-secondary-main
     font-weight: 900
     font-style: normal
-    # Add numbering in toc, headers, footers, when applicable
     title-numbering: true
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
     break-before: page
-  h2:
-    font-family: $fonts-families-headings
+
+  section-title:
+    font-family: $fonts-families-headings-h2
     font-size: $fonts-sizing-h2
     color: $colors-primary-main
     font-weight: 900
     font-style: normal
-    # Add numbering in toc, headers, footers, when applicable
     title-numbering: true
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   h3:
-    font-family: $fonts-families-headings
+    font-family: $fonts-families-headings-h3
     font-size: $fonts-sizing-h3
     color: $colors-primary-main
     font-weight: 900
     font-style: italic
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   h4:
-    font-family: $fonts-families-headings
+    font-family: $fonts-families-headings-h4
     font-size: $fonts-sizing-h4
     font-weight: 400
     font-style: normal
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   h5:
-    font-family: $fonts-families-headings
+    font-family: $fonts-families-headings-h5
     font-size: $fonts-sizing-h5
-    font-weight: italic
+    font-weight: 400
     font-style: normal
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   h6:
-    font-family: $fonts-families-headings
+    font-family: $fonts-families-headings-h6
     font-size: $fonts-sizing-h6
     font-weight: 400
     font-style: normal
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   p:
+    margin-top: $spacing-lines-medium
     margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+
   li:
-    margin-bottom: $spacing-lines-medium
+    margin-top: $spacing-lines-small
+    margin-bottom: $spacing-lines-small
     font-family: $fonts-families-copy
+    line-height: $spacing-lines-medium
     label:
-      color: $colors-primary-main
+      font-weight: 700
+      color: $colors-secondary-main
+
   step:
     keep-together.within-page: always
-  substeps:
-    margin-top: $spacing-lines-small
+    keep-with-next.within-page: always
+    margin-top: $spacing-lines-medium
     margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+    label:       
+      font-weight: 700
+
+  substeps:
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+    label:
+      color: $colors-secondary-main
+      font-weight: 700
+
   link:
     font-family: $fonts-families-copy
     color: $colors-secondary-s5
-  shortdesc:
-    margin-top: $spacing-lines-xlarge
-    margin-bottom: $spacing-lines-xlarge
     line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
+  shortdesc:
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+
   prereq:
-    margin-top: $spacing-lines-xlarge
-    margin-bottom: $spacing-lines-xlarge
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+
   note:
-    background-color: $colors-accent1-s1
+    background-color: $colors-accent-s1
     padding-before: $spacing-lines-small
     padding-after: $spacing-lines-small
     padding-start: $spacing-lines-small
     padding-end: $spacing-lines-small
-    margin-bottom: $spacing-lines-medium
+    margin-top: $spacing-lines-small
+    margin-bottom: $spacing-lines-small
     keep-together.within-page: always
+    line-height: $spacing-lines-small
     caution:
       background-color: $colors-secondary-s1
+      line-height: $spacing-lines-medium
+      margin-top: $spacing-lines-medium
+      margin-bottom: $spacing-lines-medium
     warning:
       background-color: $colors-secondary-s1
+      line-height: $spacing-lines-medium
+      margin-top: $spacing-lines-medium
+      margin-bottom: $spacing-lines-medium
+      label:
+          color: $colors-secondary-main
+
   stepresult:
     padding-before: 6pt
     padding-after: 6pt
-    margin-bottom: 12pt
+    margin-top: $spacing-lines-medium
     keep-together.within-page: always
+    keep-with-previous.within-page: always
+    line-height: $spacing-lines-medium
+
+  image:
+    max-width: 100%
+    max-height: 55%
+    scaling: uniform
+    keep-together.within-page: always
+
   option:
     color: $colors-secondary-main
     font-family: $fonts-families-monospaced
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+    line-height: $spacing-lines-medium
+
   table:
     caption:
       color: $colors-secondary-main
+      line-height: $spacing-lines-medium
+      margin-top: $spacing-lines-medium
+      margin-bottom: $spacing-lines-medium
     font-family: $fonts-families-copy
     font-size: $fonts-sizing-small
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
     header:
       background-color: $colors-primary-s1
+      line-height: $spacing-lines-medium
+      margin-top: $spacing-lines-medium
+      margin-bottom: $spacing-lines-medium
+
   menucascade:
     font-style: italic
     font-size: $fonts-sizing-uicontrol
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
+
   uicontrol:
     font-family: $fonts-families-monospaced
     background-color: $colors-secondary-s1
     color: $colors-primary-main
     font-size: $fonts-sizing-uicontrol
-
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
 
 ###################
 # DOC HEADER SETUP
 ###################
 header:
-  color: $colors-primary-main
+  color: $colors-primary-s4
   display-align: before
   end-indent: 10mm
-  font-family: $fonts-families-headings
+  font-family: $fonts-families-copy
   font-size: $fonts-sizing-small
-  font-weight: light
+  font-style: italic
   padding-after: $spacing-lines-small
   padding-before: $spacing-lines-medium
   start-indent: 10mm
   odd:
-    content: '{chapter}'
-    text-align: end
+    content: '{title}'
+    text-align: start
   even:
     content: '{title}'
     text-align: start
+  line-height: $spacing-lines-medium
+  margin-top: $spacing-lines-medium
+  margin-bottom: $spacing-lines-large
 
 ###################
 # DOC FOOTER SETUP
@@ -231,7 +319,7 @@ header:
 footer:
   color: $colors-primary-main
   end-indent: 10mm
-  font-family: $fonts-families-headings
+  font-family: $fonts-families-copy
   font-size: $fonts-sizing-small
   padding-after: $spacing-lines-small
   padding-before: $spacing-lines-medium
@@ -240,7 +328,13 @@ footer:
     content: '{folio}'
     font-weight: light
     text-align: end
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
   even:
     content: '{folio}'
     font-weight: light
     text-align: start
+    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-medium
+    margin-bottom: $spacing-lines-medium
