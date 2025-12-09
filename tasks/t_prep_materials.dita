@@ -38,7 +38,7 @@
           </choice>
         </choices>
         <info>
-          <note type="attention">For 4-conductor pickups: Solder the two unused wires together and wrap them with electrical tape. Unwrapped wires cause noise and weak sound.</note>
+          <note type="warning">For 4-conductor pickups, solder the two unused wires together and wrap them with electrical tape. Unwrapped wires cause noise and weak sound.</note>
         </info>
       </step>
       <step>

@@ -35,7 +35,7 @@
       <step>
         <cmd>Verify the capacitor connections.</cmd>
         <stepresult>
-          <image href="../assets/images/tone-pot-side-view.png" alt="Diagram showing the tone pot side view with parallel capacitor leg" width="420px"></image>
+          <image href="../assets/images/tone-pot-side-view.png" alt="Diagram showing the tone pot side view with parallel capacitor leg" width="340px"></image>
 
           <note type="note">The image shows how the capacitor leg should be positioned and soldered to the pot casing.</note>
 
