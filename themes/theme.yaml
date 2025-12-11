@@ -2,6 +2,9 @@
 # COLORS
 #############
 
+# LINDGREN: I experimented a bit with some values and ideas.
+# Overall, though, good execution of the style guide!
+
 colors:
   primary: 
     main: '#003049'
@@ -61,6 +64,8 @@ fonts:
     copy: 14pt
     uicontrol: 14.5pt
     small: 12pt
+    # LINDGREN: Added for potential header font size change
+    xsmall: 10pt
 
 #############################
 # LINE SPACING
@@ -72,7 +77,11 @@ spacing:
     large: 21pt
     medium: 16pt
     small: 12pt
-    xsmall: 9pt
+    # xsmall: 9pt
+    xsmall: 10pt
+    xxsmall: 6pt
+    # LINDGREN: For spacing tips/notes
+    tiny: 2pt
 
 ################
 # PAGE SETTINGS
@@ -173,6 +182,8 @@ style:
   li:
     margin-top: $spacing-lines-small
     margin-bottom: $spacing-lines-small
+    # LINDGREN: Added a left margins for list items
+    margin-left: $spacing-lines-small
     font-family: $fonts-families-copy
     line-height: $spacing-lines-medium
     label:
@@ -209,32 +220,52 @@ style:
     line-height: $spacing-lines-medium
 
   prereq:
-    margin-top: $spacing-lines-medium
-    margin-bottom: $spacing-lines-medium
-    line-height: $spacing-lines-medium
+    margin-top: $spacing-lines-small
+    # LINDGREN: push away from the steps
+    margin-bottom: $spacing-lines-xlarge
+    line-height: $spacing-lines-small
 
-  note:
-    background-color: $colors-accent-s1
-    padding-before: $spacing-lines-small
-    padding-after: $spacing-lines-small
+  info:
+    # LINDGREN:
+    # I learned that info seems to be a
+    # parent object of note, so we can
+    # actually define defaults here for
+    # both element types.
+    # I also tinkered with spacing.
+    padding-before: $spacing-lines-xsmall
+    padding-after: $spacing-lines-tiny
     padding-start: $spacing-lines-small
     padding-end: $spacing-lines-small
     margin-top: $spacing-lines-small
-    margin-bottom: $spacing-lines-small
+    # margin-bottom: $spacing-lines-small
+    margin-left: $spacing-lines-tiny
     keep-together.within-page: always
-    line-height: $spacing-lines-small
+    # line-height: $spacing-lines-small
+
+  note:
+    background-color: $colors-accent-s1
+    # # LINDGREN: Tinkered with spacing here
+    padding-before: $spacing-lines-xsmall
+    padding-after: $spacing-lines-tiny
+    padding-start: $spacing-lines-xxsmall
+    # padding-end: $spacing-lines-small
+    # margin-top: $spacing-lines-small
+    # margin-bottom: $spacing-lines-small
+    # margin-left: $spacing-lines-tiny
+    keep-together.within-page: always
+    # line-height: $spacing-lines-small
     caution:
       background-color: $colors-secondary-s1
       line-height: $spacing-lines-medium
-      margin-top: $spacing-lines-medium
-      margin-bottom: $spacing-lines-medium
+      # margin-top: $spacing-lines-medium
+      # margin-bottom: $spacing-lines-medium
     warning:
       background-color: $colors-secondary-s1
       line-height: $spacing-lines-medium
-      margin-top: $spacing-lines-medium
-      margin-bottom: $spacing-lines-medium
+      # margin-top: $spacing-lines-medium
+      # margin-bottom: $spacing-lines-medium
       label:
-          color: $colors-secondary-main
+        color: $colors-secondary-main
 
   stepresult:
     padding-before: 6pt
@@ -294,11 +325,14 @@ style:
 # DOC HEADER SETUP
 ###################
 header:
-  color: $colors-primary-s4
+  # LINDGREN: Consider changing to match headings
+  # color: $colors-primary-s4
+  color: $colors-primary-main
   display-align: before
   end-indent: 10mm
   font-family: $fonts-families-copy
-  font-size: $fonts-sizing-small
+  # LINDGREN: Added size to consider subtle change
+  font-size: $fonts-sizing-xsmall
   font-style: italic
   padding-after: $spacing-lines-small
   padding-before: $spacing-lines-medium

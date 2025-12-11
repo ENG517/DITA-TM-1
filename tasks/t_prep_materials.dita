@@ -30,6 +30,8 @@
             </ul>
           </choice>
           <choice>
+            <!-- LINDGREN: Warnings should be positioned before the step/choice -->
+            <note type="warning">For 4-conductor pickups, solder the two unused wires together and wrap them with electrical tape. Unwrapped wires cause noise and weak sound.</note>
             If your pickup has four wires (4-conductor):
             <ul>
               <li>Black wire is hot</li>
@@ -37,17 +39,21 @@
             </ul>
           </choice>
         </choices>
-        <info>
+        <!-- <info>
           <note type="warning">For 4-conductor pickups, solder the two unused wires together and wrap them with electrical tape. Unwrapped wires cause noise and weak sound.</note>
-        </info>
+        </info> -->
       </step>
       <step>
+        <!-- LINDGREN: More of a tip, than info. See & check throughout -->
+        <note type="tip" audience="novice">
+          Position lug 3 on the left side of each potentiometer.
+        </note>
         <cmd>
           Orient both potentiometers with the shafts facing down and lugs facing up.
         </cmd>
-        <info audience="novice">
+        <!-- <info audience="novice">
           Position lug 3 on the left side of each potentiometer.
-        </info>
+        </info> -->
       </step>
       <step>
         <cmd>
