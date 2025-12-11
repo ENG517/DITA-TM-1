@@ -8,8 +8,17 @@
   <taskbody>
     <prereq>
       <p>
-        You need a soldering iron heated to 650-700°F, desoldering wick or pump, and a spare humbucker for testing.
+        Prepare the following materials and tools:
       </p>
+      <!-- LINDGREN: Listify, when possible -->
+      <ul>
+        <li>Soldering iron heated to 650-700°F</li>
+        <li>Desoldering wick or pump</li>
+        <li>Spare humbucker for testing</li>
+      </ul>
+      <!-- <p>
+        You need a soldering iron heated to 650-700°F, desoldering wick or pump, and a spare humbucker for testing.
+      </p> -->
     </prereq>
     <steps>
       <step>
